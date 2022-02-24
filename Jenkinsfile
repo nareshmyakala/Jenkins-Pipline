@@ -2,8 +2,19 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      steps {
-        echo 'Pipline build'
+      parallel {
+        stage('Build') {
+          steps {
+            echo 'Pipline build'
+          }
+        }
+
+        stage('MISRA chat') {
+          steps {
+            echo 'MISRA chat'
+          }
+        }
+
       }
     }
 
