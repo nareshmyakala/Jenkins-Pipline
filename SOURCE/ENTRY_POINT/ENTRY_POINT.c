@@ -58,6 +58,7 @@
 int main(void)
 {	      
     /* Initailize the Platform along with Systick */
+
     PLATFORM_Init();  
 
     /* MSG2_PRO App Init */
