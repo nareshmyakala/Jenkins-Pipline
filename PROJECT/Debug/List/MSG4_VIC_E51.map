@@ -1,0 +1,1569 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                17/Feb/2022  15:11:06
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Exe\MSG4_VIC_E51.out
+#    Map file     =  
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\List\MSG4_VIC_E51.map
+#    Command line =  
+#        -f C:\Users\NAGANJ~1\AppData\Local\Temp\EW7EE0.tmp
+#        (D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ADC.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ADC_SCOPE.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\AUTHENTICATION.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\BOOTUP.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\BT43.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\CAN.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\CAN_IF.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\CLOCK.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\DATACONV.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\DES.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\EIC.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ENTRY_POINT.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ERROR.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\GCLK.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\GPIO.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\HOST_SPISlaveIF.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\IDLE.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\IGN_OFF.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\IGN_ON.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISO14230_FAST.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISO15765_2.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISO15765_CAN11B250KBPS.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISO15765_CAN11B500KBPS.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISO15765_CAN29B250KBPS.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISO15765_CAN29B500KBPS.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISOTP14230_TP.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\ISOTPQ.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\LSM6DSM.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\MCLK.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\MD5.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\MSG4_App.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\NVIC.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\NVMCTRL.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\OSC32KCTRL.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\OSCCTRL.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\PASSTHRU.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\PLATFORM.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\SAEJ1939_21_TP.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\SAEJ1939_CAN29B250KBPS.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\SPI.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\startup_same51.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\STN.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\system_same51.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\SYSTICK.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\TBUS.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\TC.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\TCC.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\TEOBD2.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\UART.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\W25QF128JV.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\WDT.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_CAN.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_GE.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_ISO.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_OBD.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_PM.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_PP.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_SAEJ1939.o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj\XTP_TE.o
+#        -o
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Exe\MSG4_VIC_E51.out
+#        --map
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\List\MSG4_VIC_E51.map
+#        --config
+#        D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\..\SOURCE\PLATFORM\DEVICE\LINKER\same51x19_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00010000 to 0x0007ffff] { ro };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2002ffff] { rw, block HEAP };
+define block CSTACK with size = 2K, alignment = 8 { };
+"A1":  place at end of [from 0x20000000 to 0x2002ffff] { block CSTACK };
+initialize by copy { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                       0x264
+  .intvec                     0x00000000    0x264  <Block>
+    .intvec          const    0x00000000    0x264  startup_same51.o [1]
+                            - 0x00000264    0x264
+
+"P1":                                      0xc14c
+  .text              ro code  0x00010000   0x179c  XTP.o [1]
+  .text              ro code  0x0001179c     0x36  strlen.o [5]
+  .text              ro code  0x000117d2     0x7a  lz77_init_single.o [5]
+  .text              ro code  0x0001184c      0x6  ABImemclr4.o [5]
+  .text              ro code  0x00011852     0x22  ISO14230_FAST.o [1]
+  .text              ro code  0x00011874     0x76  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x000118ea     0x22  ISO15765_CAN29B250KBPS.o [1]
+  .text              ro code  0x0001190c    0x5a0  XTP_OBD.o [1]
+  .text              ro code  0x00011eac    0x29c  XTP_TE.o [1]
+  .text              ro code  0x00012148    0x378  XTP_CAN.o [1]
+  .text              ro code  0x000124c0    0x1f0  XTP_GE.o [1]
+  .text              ro code  0x000126b0    0x194  XTP_ISO.o [1]
+  .text              ro code  0x00012844    0x760  XTP_SAEJ1939.o [1]
+  .text              ro code  0x00012fa4    0x198  XTP_PP.o [1]
+  .text              ro code  0x0001313c     0x16  strchr.o [5]
+  .text              ro code  0x00013152     0x22  ISO15765_CAN29B500KBPS.o [1]
+  .text              ro code  0x00013174     0x8c  XTP_PM.o [1]
+  .text              ro code  0x00013200     0x66  ABImemset.o [5]
+  .text              ro code  0x00013266      0xa  ERROR.o [1]
+  .text              ro code  0x00013270    0x416  DATACONV.o [1]
+  .text              ro code  0x00013686      0xa  IDLE.o [1]
+  .text              ro code  0x00013690     0x44  strcpy_unaligned.o [5]
+  .text              ro code  0x000136d4     0x40  sprintf.o [3]
+  .text              ro code  0x00013714     0x20  strcat.o [3]
+  .text              ro code  0x00013734     0x32  ABImemset48.o [5]
+  .text              ro code  0x00013766      0xa  IGN_OFF.o [1]
+  .text              ro code  0x00013770    0x20e  CAN_IF.o [1]
+  .text              ro code  0x0001397e      0xa  IGN_ON.o [1]
+  .text              ro code  0x00013988    0x178  iar_Stoulx.o [3]
+  .text              ro code  0x00013b00    0x134  ISOTPQ.o [1]
+  .text              ro code  0x00013c34     0x48  FltToDbl.o [4]
+  .text              ro code  0x00013c7c    0x2ea  SAEJ1939_CAN29B250KBPS.o [1]
+  .text              ro code  0x00013f66      0xa  xsprout.o [3]
+  .text              ro code  0x00013f70    0xbfa  xprintflarge_nomb.o [3]
+  .text              ro code  0x00014b6c    0x72e  ISO15765_2.o [1]
+  .text              ro code  0x0001529c    0x2dc  GPIO.o [1]
+  .text              ro code  0x00015578    0xae4  CAN.o [1]
+  .text              ro code  0x0001605c    0x620  TC.o [1]
+  .text              ro code  0x0001667c     0x58  memchr.o [5]
+  .text              ro code  0x000166d4    0xd30  SAEJ1939_21_TP.o [1]
+  .text              ro code  0x00017404     0x44  xfail_s.o [3]
+  .text              ro code  0x00017448    0x22e  I64DivMod.o [5]
+  .text              ro code  0x00017678    0x1a2  DblMul.o [4]
+  .text              ro code  0x0001781c     0x70  frexp.o [4]
+  .text              ro code  0x0001788c     0x2e  DblCmpLe.o [4]
+  .text              ro code  0x000178bc    0x246  DblDiv.o [4]
+  .text              ro code  0x00017b04     0x28  DblToU32.o [4]
+  .text              ro code  0x00017b2c     0x1a  U32ToDbl.o [4]
+  .text              ro code  0x00017b48     0xe2  DblSub.o [4]
+  .text              ro code  0x00017c2c     0xb0  MCLK.o [1]
+  .text              ro code  0x00017cdc    0x5ec  GCLK.o [1]
+  .text              ro code  0x000182c8     0x2c  NVIC.o [1]
+  .text              ro code  0x000182f4      0x6  abort.o [3]
+  .text              ro code  0x000182fc      0x2  I64DivZer.o [5]
+  .text              ro code  0x00018300    0x178  DblAdd.o [4]
+  .text              ro code  0x00018478     0x14  exit.o [6]
+  .text              ro code  0x0001848c    0x720  ADC.o [1]
+  .text              ro code  0x00018bac    0x674  UART.o [1]
+  .text              ro code  0x00019220     0x3a  DblToS32.o [4]
+  .text              ro code  0x0001925c    0x574  STN.o [1]
+  .text              ro code  0x000197d0     0x30  strstr.o [3]
+  .text              ro code  0x00019800    0x460  TCC.o [1]
+  .text              ro code  0x00019c60    0x370  TBUS.o [1]
+  .text              ro code  0x00019fd0      0xc  memcpy.o [5]
+  .text              ro code  0x00019fdc    0x320  ADC_SCOPE.o [1]
+  .text              ro code  0x0001a2fc    0x360  EIC.o [1]
+  .text              ro code  0x0001a65c    0x2b8  SPI.o [1]
+  .text              ro code  0x0001a914    0x238  PASSTHRU.o [1]
+  .text              ro code  0x0001ab4c    0x1fc  BT43.o [1]
+  .text              ro code  0x0001ad48    0x1d8  TEOBD2.o [1]
+  .text              ro code  0x0001af20    0x1c4  HOST_SPISlaveIF.o [1]
+  .text              ro code  0x0001b0e4    0x1ba  ISO15765_CAN11B500KBPS.o [1]
+  .text              ro code  0x0001b2a0     0xfc  MSG4_App.o [1]
+  .rodata            const    0x0001b39c     0x90  TEOBD2.o [1]
+  .text              ro code  0x0001b42c     0x8e  AUTHENTICATION.o [1]
+  .text              ro code  0x0001b4bc     0x88  SYSTICK.o [1]
+  .text              ro code  0x0001b544     0x84  OSCCTRL.o [1]
+  .rodata            const    0x0001b5c8     0x6c  ISO15765_CAN11B250KBPS.o [1]
+  .rodata            const    0x0001b634     0x6c  ISO15765_CAN11B500KBPS.o [1]
+  .text              ro code  0x0001b6a0     0x68  CLOCK.o [1]
+  .text              ro code  0x0001b708     0x2c  OSC32KCTRL.o [1]
+  .text              ro code  0x0001b734     0x64  NVMCTRL.o [1]
+  .text              ro code  0x0001b798     0x60  PLATFORM.o [1]
+  .rodata            const    0x0001b7f8     0x54  MSG4_App.o [1]
+  .text              ro code  0x0001b84c     0x54  ISO15765_CAN11B250KBPS.o [1]
+  .text              ro code  0x0001b8a0     0x40  zero_init3.o [5]
+  .text              ro code  0x0001b8e0     0x28  data_init.o [5]
+  .rodata            const    0x0001b908     0x24  XTP_OBD.o [1]
+  .text              ro code  0x0001b92c     0x22  startup_same51.o [1]
+  .text              ro code  0x0001b94e      0xc  cstartup_M.o [5]
+  .text              ro code  0x0001b95c     0x22  fpinit_M.o [4]
+  .text              ro code  0x0001b980     0x1e  cmain.o [5]
+  .text              ro code  0x0001b99e      0xc  ENTRY_POINT.o [1]
+  .text              ro code  0x0001b9aa      0x4  exit.o [3]
+  .text              ro code  0x0001b9b0      0xa  cexit.o [5]
+  .iar.init_table    const    0x0001b9bc     0x20  - Linker created -
+  .rodata            const    0x0001b9dc     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001b9f8     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001ba14     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001ba30     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001ba4c     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001ba68     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001ba84     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001baa0     0x1c  XTP_OBD.o [1]
+  .rodata            const    0x0001babc     0x18  XTP_OBD.o [1]
+  .rodata            const    0x0001bad4     0x18  XTP_OBD.o [1]
+  .text              ro code  0x0001baec     0x18  WDT.o [1]
+  .rodata            const    0x0001bb04     0x14  ISO15765_CAN11B250KBPS.o [1]
+  .rodata            const    0x0001bb18     0x14  ISO15765_CAN11B500KBPS.o [1]
+  .rodata            const    0x0001bb2c     0x14  SAEJ1939_CAN29B250KBPS.o [1]
+  .rodata            const    0x0001bb40     0x14  XTP_GE.o [1]
+  .rodata            const    0x0001bb54     0x14  XTP_OBD.o [1]
+  .rodata            const    0x0001bb68     0x14  XTP_OBD.o [1]
+  .text              ro code  0x0001bb7c     0x14  BOOTUP.o [1]
+  .rodata            const    0x0001bb90     0x10  STN.o [1]
+  .rodata            const    0x0001bba0     0x10  XTP_GE.o [1]
+  .rodata            const    0x0001bbb0     0x10  XTP_OBD.o [1]
+  .rodata            const    0x0001bbc0      0xc  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bbcc      0xc  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bbd8      0xc  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bbe4      0xc  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bbf0      0xc  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bbfc      0xc  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bc08      0xc  ISO15765_CAN11B500KBPS.o [1]
+  .rodata            const    0x0001bc14      0xc  PASSTHRU.o [1]
+  .rodata            const    0x0001bc20      0xc  SAEJ1939_CAN29B250KBPS.o [1]
+  .rodata            const    0x0001bc2c      0xc  STN.o [1]
+  .rodata            const    0x0001bc38      0xc  STN.o [1]
+  .rodata            const    0x0001bc44      0xc  XTP_ISO.o [1]
+  .rodata            const    0x0001bc50      0xc  XTP_PP.o [1]
+  .rodata            const    0x0001bc5c      0x8  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bc64      0x8  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bc6c      0x8  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bc74      0x8  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bc7c      0x8  ADC_SCOPE.o [1]
+  .rodata            const    0x0001bc84      0x8  AUTHENTICATION.o [1]
+  .rodata            const    0x0001bc8c      0x8  CAN_IF.o [1]
+  .rodata            const    0x0001bc94      0x8  CAN_IF.o [1]
+  .rodata            const    0x0001bc9c      0x8  CAN_IF.o [1]
+  .rodata            const    0x0001bca4      0x8  PASSTHRU.o [1]
+  .rodata            const    0x0001bcac      0x8  PLATFORM.o [1]
+  .rodata            const    0x0001bcb4      0x8  PLATFORM.o [1]
+  .rodata            const    0x0001bcbc      0x8  STN.o [1]
+  .rodata            const    0x0001bcc4      0x8  STN.o [1]
+  .rodata            const    0x0001bccc      0x8  STN.o [1]
+  .rodata            const    0x0001bcd4      0x8  STN.o [1]
+  .rodata            const    0x0001bcdc      0x8  STN.o [1]
+  .rodata            const    0x0001bce4      0x8  STN.o [1]
+  .rodata            const    0x0001bcec      0x8  STN.o [1]
+  .rodata            const    0x0001bcf4      0x8  STN.o [1]
+  .rodata            const    0x0001bcfc      0x8  STN.o [1]
+  .rodata            const    0x0001bd04      0x8  STN.o [1]
+  .rodata            const    0x0001bd0c      0x8  STN.o [1]
+  .rodata            const    0x0001bd14      0x8  XTP.o [1]
+  .rodata            const    0x0001bd1c      0x8  XTP.o [1]
+  .rodata            const    0x0001bd24      0x8  XTP_GE.o [1]
+  .rodata            const    0x0001bd2c      0x8  XTP_OBD.o [1]
+  .rodata            const    0x0001bd34      0x8  XTP_OBD.o [1]
+  .rodata            const    0x0001bd3c      0x8  XTP_OBD.o [1]
+  .rodata            const    0x0001bd44      0x8  XTP_PP.o [1]
+  .rodata            const    0x0001bd4c      0x8  XTP_PP.o [1]
+  .rodata            const    0x0001bd54      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd5c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd64      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd6c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd74      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd7c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd84      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd8c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd94      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bd9c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bda4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdac      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdb4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdbc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdc4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdcc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdd4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bddc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bde4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdec      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdf4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bdfc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be04      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be0c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be14      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be1c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be24      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be2c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be34      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be3c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be44      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be4c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be54      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be5c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be64      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be6c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be74      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be7c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be84      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be8c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be94      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001be9c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bea4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001beac      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001beb4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bebc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bec4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001becc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bed4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bedc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bee4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001beec      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bef4      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001befc      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bf04      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bf0c      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bf14      0x8  XTP_SAEJ1939.o [1]
+  .rodata            const    0x0001bf1c      0x0  zero_init3.o [5]
+  .rodata            const    0x0001bf1c      0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0001bf1c    0x230  <for P2-1>
+                            - 0x0001c14c   0xc14c
+
+"P2", part 1 of 2:                          0x81c
+  P2-1                        0x20000000    0x81c  <Init block>
+    .data            inited   0x20000000      0x8  ADC.o [1]
+    .data            inited   0x20000008     0x10  BT43.o [1]
+    .data            inited   0x20000018      0x8  CAN.o [1]
+    .data            inited   0x20000020     0x14  CAN_IF.o [1]
+    .data            inited   0x20000034      0xc  CAN_IF.o [1]
+    .data            inited   0x20000040      0x4  EIC.o [1]
+    .data            inited   0x20000044      0x4  GCLK.o [1]
+    .data            inited   0x20000048      0x8  GPIO.o [1]
+    .data            inited   0x20000050     0x10  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000060      0x8  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000068      0x8  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000070      0x8  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000078      0x8  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000080      0x8  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000088      0x8  HOST_SPISlaveIF.o [1]
+    .data            inited   0x20000090     0x14  HOST_SPISlaveIF.o [1]
+    .data            inited   0x200000a4      0x4  MCLK.o [1]
+    .data            inited   0x200000a8      0x4  MSG4_App.o [1]
+    .data            inited   0x200000ac      0x4  NVIC.o [1]
+    .data            inited   0x200000b0      0x4  NVMCTRL.o [1]
+    .data            inited   0x200000b4      0x4  OSC32KCTRL.o [1]
+    .data            inited   0x200000b8      0x4  OSCCTRL.o [1]
+    .data            inited   0x200000bc      0x4  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000c0      0x4  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000c4      0x4  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000c8      0x4  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000cc      0x4  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000d0      0x8  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000d8      0x8  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000e0      0x8  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000e8      0x8  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000f0      0x8  SAEJ1939_21_TP.o [1]
+    .data            inited   0x200000f8     0x20  SPI.o [1]
+    .data            inited   0x20000118      0x4  SYSTICK.o [1]
+    .data            inited   0x2000011c      0x8  TBUS.o [1]
+    .data            inited   0x20000124      0x8  TBUS.o [1]
+    .data            inited   0x2000012c     0x10  TBUS.o [1]
+    .data            inited   0x2000013c    0x400  TBUS.o [1]
+    .data            inited   0x2000053c     0x20  TC.o [1]
+    .data            inited   0x2000055c     0x20  TC.o [1]
+    .data            inited   0x2000057c     0x14  TCC.o [1]
+    .data            inited   0x20000590      0x4  TEOBD2.o [1]
+    .data            inited   0x20000594      0x4  TEOBD2.o [1]
+    .data            inited   0x20000598      0x4  TEOBD2.o [1]
+    .data            inited   0x2000059c     0x20  UART.o [1]
+    .data            inited   0x200005bc      0x4  WDT.o [1]
+    .data            inited   0x200005c0      0x4  XTP.o [1]
+    .data            inited   0x200005c4      0x4  XTP.o [1]
+    .data            inited   0x200005c8      0x4  XTP.o [1]
+    .data            inited   0x200005cc      0x4  XTP.o [1]
+    .data            inited   0x200005d0    0x240  XTP_PP.o [1]
+    .data            inited   0x20000810      0x2  XTP.o [1]
+    .data            inited   0x20000812      0x1  ISOTP14230_TP.o [1]
+    .data            inited   0x20000813      0x1  ISOTP14230_TP.o [1]
+    .data            inited   0x20000814      0x1  SAEJ1939_21_TP.o [1]
+    .data            inited   0x20000815      0x1  TEOBD2.o [1]
+    .data            inited   0x20000816      0x1  TEOBD2.o [1]
+    .data            inited   0x20000817      0x1  XTP.o [1]
+    .data            inited   0x20000818      0x1  XTP.o [1]
+    .data            inited   0x20000819      0x1  XTP.o [1]
+    .data            inited   0x2000081a      0x1  XTP.o [1]
+    .data            inited   0x2000081b      0x1  XTP_SAEJ1939.o [1]
+                            - 0x2000081c    0x81c
+
+"P2", part 2 of 2:                        0x13728
+  .bss               zero     0x2000081c   0x3000  XTP.o [1]
+  .bss               zero     0x2000381c   0x2bc0  ISOTPQ.o [1]
+  .bss               zero     0x200063dc   0x206c  BT43.o [1]
+  .bss               zero     0x20008448   0x206c  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x2000a4b4   0x2000  TBUS.o [1]
+  .bss               zero     0x2000c4b4   0x2000  TBUS.o [1]
+  .bss               zero     0x2000e4b4   0x1000  ISO15765_2.o [1]
+  .bss               zero     0x2000f4b4   0x1000  ISO15765_2.o [1]
+  .bss               zero     0x200104b4   0x1000  MSG4_App.o [1]
+  .bss               zero     0x200114b4   0x1000  STN.o [1]
+  .bss               zero     0x200124b4    0xf00  CAN.o [1]
+  .bss               zero     0x200133b4    0x44c  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x20013800    0x240  XTP_PP.o [1]
+  .bss               zero     0x20013a40     0xfc  BT43.o [1]
+  .bss               zero     0x20013b3c     0x80  ADC.o [1]
+  .bss               zero     0x20013bbc     0x48  XTP.o [1]
+  .bss               zero     0x20013c04     0x44  TEOBD2.o [1]
+  .bss               zero     0x20013c48     0x40  EIC.o [1]
+  .bss               zero     0x20013c88     0x20  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ca8     0x20  ADC_SCOPE.o [1]
+  .bss               zero     0x20013cc8     0x20  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ce8     0x20  ADC_SCOPE.o [1]
+  .bss               zero     0x20013d08     0x20  ADC_SCOPE.o [1]
+  .bss               zero     0x20013d28     0x20  TC.o [1]
+  .bss               zero     0x20013d48     0x20  TC.o [1]
+  .bss               zero     0x20013d68     0x20  UART.o [1]
+  .bss               zero     0x20013d88     0x18  CAN.o [1]
+  .bss               zero     0x20013da0     0x14  ISO15765_2.o [1]
+  .bss               zero     0x20013db4     0x14  TCC.o [1]
+  .bss               zero     0x20013dc8     0x14  TCC.o [1]
+  .bss               zero     0x20013ddc     0x10  CAN.o [1]
+  .bss               zero     0x20013dec     0x10  ISO15765_CAN11B500KBPS.o [1]
+  .bss               zero     0x20013dfc     0x10  SAEJ1939_CAN29B250KBPS.o [1]
+  .bss               zero     0x20013e0c      0x8  CAN.o [1]
+  .bss               zero     0x20013e14      0x8  CAN.o [1]
+  .bss               zero     0x20013e1c      0x8  CAN.o [1]
+  .bss               zero     0x20013e24      0x8  CAN.o [1]
+  .bss               zero     0x20013e2c      0x8  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013e34      0x8  TC.o [1]
+  .bss               zero     0x20013e3c      0x8  XTP_GE.o [1]
+  .bss               zero     0x20013e44      0x4  ADC.o [1]
+  .bss               zero     0x20013e48      0x4  ADC.o [1]
+  .bss               zero     0x20013e4c      0x4  BT43.o [1]
+  .bss               zero     0x20013e50      0x4  CAN_IF.o [1]
+  .bss               zero     0x20013e54      0x4  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x20013e58      0x4  ISO15765_2.o [1]
+  .bss               zero     0x20013e5c      0x4  ISO15765_2.o [1]
+  .bss               zero     0x20013e60      0x4  ISO15765_2.o [1]
+  .bss               zero     0x20013e64      0x4  ISOTPQ.o [1]
+  .bss               zero     0x20013e68      0x4  ISOTPQ.o [1]
+  .bss               zero     0x20013e6c      0x4  MSG4_App.o [1]
+  .bss               zero     0x20013e70      0x4  MSG4_App.o [1]
+  .bss               zero     0x20013e74      0x4  PLATFORM.o [1]
+  .bss               zero     0x20013e78      0x4  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013e7c      0x4  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013e80      0x4  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013e84      0x4  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013e88      0x4  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013e8c      0x4  SPI.o [1]
+  .bss               zero     0x20013e90      0x4  STN.o [1]
+  .bss               zero     0x20013e94      0x4  STN.o [1]
+  .bss               zero     0x20013e98      0x4  STN.o [1]
+  .bss               zero     0x20013e9c      0x4  STN.o [1]
+  .bss               zero     0x20013ea0      0x4  STN.o [1]
+  .bss               zero     0x20013ea4      0x4  TBUS.o [1]
+  .bss               zero     0x20013ea8      0x4  TC.o [1]
+  .bss               zero     0x20013eac      0x4  TEOBD2.o [1]
+  .bss               zero     0x20013eb0      0x4  TEOBD2.o [1]
+  .bss               zero     0x20013eb4      0x4  TEOBD2.o [1]
+  .bss               zero     0x20013eb8      0x4  TEOBD2.o [1]
+  .bss               zero     0x20013ebc      0x4  TEOBD2.o [1]
+  .bss               zero     0x20013ec0      0x4  TEOBD2.o [1]
+  .bss               zero     0x20013ec4      0x4  XTP_OBD.o [1]
+  .bss               zero     0x20013ec8      0x4  XTP_TE.o [1]
+  .bss               zero     0x20013ecc      0x4  xfail_s.o [3]
+  .bss               zero     0x20013ed0      0x2  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ed2      0x2  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ed4      0x2  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ed6      0x2  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ed8      0x2  ADC_SCOPE.o [1]
+  .bss               zero     0x20013eda      0x2  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x20013edc      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013ede      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013ee0      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013ee2      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013ee4      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013ee6      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013ee8      0x2  ISO15765_2.o [1]
+  .bss               zero     0x20013eea      0x2  ISOTPQ.o [1]
+  .bss               zero     0x20013eec      0x2  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013eee      0x2  TBUS.o [1]
+  .bss               zero     0x20013ef0      0x2  XTP.o [1]
+  .bss               zero     0x20013ef2      0x1  ADC.o [1]
+  .bss               zero     0x20013ef3      0x1  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ef4      0x1  ADC_SCOPE.o [1]
+  .bss               zero     0x20013ef5      0x1  BT43.o [1]
+  .bss               zero     0x20013ef6      0x1  BT43.o [1]
+  .bss               zero     0x20013ef7      0x1  BT43.o [1]
+  .bss               zero     0x20013ef8      0x1  BT43.o [1]
+  .bss               zero     0x20013ef9      0x1  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x20013efa      0x1  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x20013efb      0x1  HOST_SPISlaveIF.o [1]
+  .bss               zero     0x20013efc      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013efd      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013efe      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013eff      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f00      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f01      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f02      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f03      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f04      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f05      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f06      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f07      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f08      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f09      0x1  ISO15765_2.o [1]
+  .bss               zero     0x20013f0a      0x1  ISO15765_CAN11B500KBPS.o [1]
+  .bss               zero     0x20013f0b      0x1  ISOTP14230_TP.o [1]
+  .bss               zero     0x20013f0c      0x1  ISOTP14230_TP.o [1]
+  .bss               zero     0x20013f0d      0x1  ISOTP14230_TP.o [1]
+  .bss               zero     0x20013f0e      0x1  MSG4_App.o [1]
+  .bss               zero     0x20013f0f      0x1  MSG4_App.o [1]
+  .bss               zero     0x20013f10      0x1  MSG4_App.o [1]
+  .bss               zero     0x20013f11      0x1  MSG4_App.o [1]
+  .bss               zero     0x20013f12      0x1  PASSTHRU.o [1]
+  .bss               zero     0x20013f13      0x1  PASSTHRU.o [1]
+  .bss               zero     0x20013f14      0x1  PASSTHRU.o [1]
+  .bss               zero     0x20013f15      0x1  PLATFORM.o [1]
+  .bss               zero     0x20013f16      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f17      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f18      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f19      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f1a      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f1b      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f1c      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f1d      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f1e      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f1f      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f20      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f21      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f22      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f23      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f24      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f25      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f26      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f27      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f28      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f29      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f2a      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f2b      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f2c      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f2d      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f2e      0x1  SAEJ1939_21_TP.o [1]
+  .bss               zero     0x20013f2f      0x1  SAEJ1939_CAN29B250KBPS.o [1]
+  .bss               zero     0x20013f30      0x1  STN.o [1]
+  .bss               zero     0x20013f31      0x1  STN.o [1]
+  .bss               zero     0x20013f32      0x1  TBUS.o [1]
+  .bss               zero     0x20013f33      0x1  TBUS.o [1]
+  .bss               zero     0x20013f34      0x1  TBUS.o [1]
+  .bss               zero     0x20013f35      0x1  TBUS.o [1]
+  .bss               zero     0x20013f36      0x1  TCC.o [1]
+  .bss               zero     0x20013f37      0x1  TEOBD2.o [1]
+  .bss               zero     0x20013f38      0x1  TEOBD2.o [1]
+  .bss               zero     0x20013f39      0x1  TEOBD2.o [1]
+  .bss               zero     0x20013f3a      0x1  XTP.o [1]
+  .bss               zero     0x20013f3b      0x1  XTP.o [1]
+  .bss               zero     0x20013f3c      0x1  XTP.o [1]
+  .bss               zero     0x20013f3d      0x1  XTP.o [1]
+  .bss               zero     0x20013f3e      0x1  XTP.o [1]
+  .bss               zero     0x20013f3f      0x1  XTP.o [1]
+  .bss               zero     0x20013f40      0x1  XTP.o [1]
+  .bss               zero     0x20013f41      0x1  XTP.o [1]
+                            - 0x20013f42  0x13726
+
+"A1":                                       0x800
+  CSTACK                      0x2002f800    0x800  <Block>
+    CSTACK           uninit   0x2002f800    0x800  <Block tail>
+                            - 0x20030000    0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x13726:
+          0x2000081c  0x13726
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x230 (26% of destination):
+          0x0001bf1c    0x230
+    1 destination range, total size 0x81c:
+          0x20000000    0x81c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj: [1]
+    ADC.o                       1 824        2      145
+    ADC_SCOPE.o                   800      112      172
+    AUTHENTICATION.o              142        8
+    BOOTUP.o                       20
+    BT43.o                        508        4    8 576
+    CAN.o                       2 788        2    3 920
+    CAN_IF.o                      526       33       36
+    CLOCK.o                       104
+    DATACONV.o                  1 046
+    EIC.o                         864        1       68
+    ENTRY_POINT.o                  12
+    ERROR.o                        10
+    GCLK.o                      1 516        1        4
+    GPIO.o                        732        2        8
+    HOST_SPISlaveIF.o             452       23    9 493
+    IDLE.o                         10
+    IGN_OFF.o                      10
+    IGN_ON.o                       10
+    ISO14230_FAST.o                34
+    ISO15765_2.o                1 838             8 252
+    ISO15765_CAN11B250KBPS.o       84      128
+    ISO15765_CAN11B500KBPS.o      442      140       17
+    ISO15765_CAN29B250KBPS.o       34
+    ISO15765_CAN29B500KBPS.o       34
+    ISOTP14230_TP.o                                   5
+    ISOTPQ.o                      308            11 210
+    MCLK.o                        176        1        4
+    MSG4_App.o                    252       85    4 112
+    NVIC.o                         44        1        4
+    NVMCTRL.o                     100        1        4
+    OSC32KCTRL.o                   44        1        4
+    OSCCTRL.o                     132        1        4
+    PASSTHRU.o                    568       20        3
+    PLATFORM.o                     96       16        5
+    SAEJ1939_21_TP.o            3 376       17      116
+    SAEJ1939_CAN29B250KBPS.o      746       32       17
+    SPI.o                         696        9       36
+    STN.o                       1 396      128    4 118
+    SYSTICK.o                     136        1        4
+    TBUS.o                        880      285   17 450
+    TC.o                        1 568       17      140
+    TCC.o                       1 120        6       61
+    TEOBD2.o                      472      147      109
+    UART.o                      1 652        8       64
+    WDT.o                          24        2        4
+    XTP.o                       6 044       22   12 392
+    XTP_CAN.o                     888
+    XTP_GE.o                      496       44        8
+    XTP_ISO.o                     404       12
+    XTP_OBD.o                   1 440      388        4
+    XTP_PM.o                      140
+    XTP_PP.o                      408      183    1 152
+    XTP_SAEJ1939.o              1 888      457        1
+    XTP_TE.o                      668                 4
+    startup_same51.o               34      612
+    ---------------------------------------------------
+    Total:                     40 036    2 952   81 726
+
+command line: [2]
+    ---------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                         6
+    exit.o                          4
+    iar_Stoulx.o                  376
+    sprintf.o                      64
+    strcat.o                       32
+    strstr.o                       48
+    xfail_s.o                      68                 4
+    xprintflarge_nomb.o         3 066
+    xsprout.o                      10
+    ---------------------------------------------------
+    Total:                      3 674                 4
+
+m7M_tls.a: [4]
+    DblAdd.o                      376
+    DblCmpLe.o                     46
+    DblDiv.o                      582
+    DblMul.o                      418
+    DblSub.o                      226
+    DblToS32.o                     58
+    DblToU32.o                     40
+    FltToDbl.o                     72
+    U32ToDbl.o                     26
+    fpinit_M.o                     34
+    frexp.o                       112
+    ---------------------------------------------------
+    Total:                      1 990
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                    6
+    ABImemcpy_unaligned.o         118
+    ABImemset.o                   102
+    ABImemset48.o                  50
+    I64DivMod.o                   558
+    I64DivZer.o                     2
+    cexit.o                        10
+    cmain.o                        30
+    cstartup_M.o                   12
+    data_init.o                    40
+    lz77_init_single.o            122
+    memchr.o                       88
+    memcpy.o                       12
+    strchr.o                       22
+    strcpy_unaligned.o             68
+    strlen.o                       54
+    zero_init3.o                   64
+    ---------------------------------------------------
+    Total:                      1 358
+
+shb_l.a: [6]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Gaps                           32        2
+    Linker created                          32    2 048
+-------------------------------------------------------
+    Grand Total:               47 110    2 986   83 778
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0001b9bc           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0001b9dc           --   Gb  - Linker created -
+.intvec$$Base           0x00000000           --   Gb  - Linker created -
+.intvec$$Limit          0x00000264           --   Gb  - Linker created -
+?main                   0x0001b981          Code  Gb  cmain.o [5]
+ADC0_1_Handler          0x0001848d   0x1bc  Code  Gb  ADC.o [1]
+ADC0_Ch1UserHandler     0x00019fdd    0x16  Code  Lc  ADC_SCOPE.o [1]
+ADC0_Ch6UserHandler     0x0001a035    0x1e  Code  Lc  ADC_SCOPE.o [1]
+ADC0_Ch7UserHandler     0x0001a01f    0x16  Code  Lc  ADC_SCOPE.o [1]
+ADC1_1_Handler          0x00018649   0x1bc  Code  Gb  ADC.o [1]
+ADC1_Ch8UserHandler     0x0001a009    0x16  Code  Lc  ADC_SCOPE.o [1]
+ADC1_Ch9UserHandler     0x00019ff3    0x16  Code  Lc  ADC_SCOPE.o [1]
+ADCSCOPE_Ch1MAF16       0x0001a0cb    0x4c  Code  Lc  ADC_SCOPE.o [1]
+ADCSCOPE_Ch2MAF16       0x0001a117    0x4c  Code  Lc  ADC_SCOPE.o [1]
+ADCSCOPE_Ch3MAF16       0x0001a163    0x4c  Code  Lc  ADC_SCOPE.o [1]
+ADCSCOPE_Ch4MAF16       0x0001a1af    0x4c  Code  Lc  ADC_SCOPE.o [1]
+ADCSCOPE_Ch5MAF16       0x0001a1fb    0x4c  Code  Lc  ADC_SCOPE.o [1]
+ADCSCOPE_TimerHandler   0x0001a053    0x78  Code  Lc  ADC_SCOPE.o [1]
+ADC_GetResult           0x00018b7f    0x12  Code  Gb  ADC.o [1]
+ADC_Init                0x00018805   0x1ee  Code  Gb  ADC.o [1]
+ADC_Init::u32_lAdc0Flag
+                        0x20013e44     0x4  Data  Lc  ADC.o [1]
+ADC_Init::u32_lAdc1Flag
+                        0x20013e48     0x4  Data  Lc  ADC.o [1]
+ADC_Operation           0x000189f3    0xea  Code  Gb  ADC.o [1]
+ADC_ResetTrigger        0x00018b91     0x8  Code  Gb  ADC.o [1]
+ADC_ScopeInit           0x0001a247    0x40  Code  Gb  ADC_SCOPE.o [1]
+ADC_ScopeStart          0x0001a287     0xa  Code  Gb  ADC_SCOPE.o [1]
+ADC_ScopeStop           0x0001a291     0xe  Code  Gb  ADC_SCOPE.o [1]
+ADC_Trigger             0x00018add    0xa2  Code  Gb  ADC.o [1]
+AUTHENTICATION_Exit     0x0001b4b9     0x2  Code  Gb  AUTHENTICATION.o [1]
+AUTHENTICATION_Handler  0x0001b463    0x40  Code  Gb  AUTHENTICATION.o [1]
+AUTHENTICATION_Init     0x0001b42d    0x36  Code  Gb  AUTHENTICATION.o [1]
+A_GrpupCommands         0x0001039d    0x2e  Code  Lc  XTP.o [1]
+BOOTUP_Exit             0x0001bb8f     0x2  Code  Gb  BOOTUP.o [1]
+BOOTUP_Handler          0x0001bb8d     0x2  Code  Gb  BOOTUP.o [1]
+BOOTUP_Init             0x0001bb7d    0x10  Code  Gb  BOOTUP.o [1]
+BT43_GetFifoRef         0x0001ad13     0xa  Code  Gb  BT43.o [1]
+BT43_Ioctrl             0x0001acc7    0x4c  Code  Gb  BT43.o [1]
+BT43_ResetFifo          0x0001ad1d     0x8  Code  Gb  BT43.o [1]
+BT43_RxHandler          0x0001ab4d   0x10c  Code  Gb  BT43.o [1]
+BT43_Transmit           0x0001ac59    0x6e  Code  Gb  BT43.o [1]
+B_GrpupCommands         0x000103cb     0x6  Code  Lc  XTP.o [1]
+CAN0_Handler            0x00015579   0x15a  Code  Gb  CAN.o [1]
+CAN1_Handler            0x000156d3   0x160  Code  Gb  CAN.o [1]
+CANMsgRam               0x200124b4   0xf00  Data  Gb  CAN.o [1]
+CAN_BusOffHandler       0x00013781     0x2  Code  Gb  CAN_IF.o [1]
+CAN_ConfigDataField     0x00015d91   0x206  Code  Gb  CAN.o [1]
+CAN_ConfigRAMBuffers    0x00015f97    0xa4  Code  Gb  CAN.o [1]
+CAN_ConfigRxMsgBuff     0x00015c15    0x78  Code  Gb  CAN.o [1]
+CAN_ConfigTxMsgBuff     0x00015b37    0xde  Code  Gb  CAN.o [1]
+CAN_DISPLAY             0x0001108d   0x50a  Code  Gb  XTP.o [1]
+CAN_DISPLAY_XTMA        0x0001159d   0x162  Code  Gb  XTP.o [1]
+CAN_ErrorHandler        0x00013783     0x2  Code  Gb  CAN_IF.o [1]
+CAN_IF_Awake            0x000138e1    0x10  Code  Gb  CAN_IF.o [1]
+CAN_IF_Init             0x00013785    0xf6  Code  Gb  CAN_IF.o [1]
+CAN_IF_Ioctrl           0x00013909    0x54  Code  Gb  CAN_IF.o [1]
+CAN_IF_Sleep            0x000138d1    0x10  Code  Gb  CAN_IF.o [1]
+CAN_IF_WriteMsg         0x0001387b    0x56  Code  Gb  CAN_IF.o [1]
+CAN_Init                0x00015833   0x24e  Code  Gb  CAN.o [1]
+CAN_ReadReceiveFifoData
+                        0x00015cb9    0xaa  Code  Gb  CAN.o [1]
+CAN_RxHandler           0x00013771     0x8  Code  Gb  CAN_IF.o [1]
+CAN_Sleep               0x00015a81    0x44  Code  Gb  CAN.o [1]
+CAN_TestCheck           0x0001952b    0x8c  Code  Lc  STN.o [1]
+CAN_TransmitDataBuffer  0x00015c8d    0x2c  Code  Gb  CAN.o [1]
+CAN_TxHandler           0x00013779     0x8  Code  Gb  CAN_IF.o [1]
+CAN_Wakeup              0x00015ac5    0x72  Code  Gb  CAN.o [1]
+CLOCK_ResetClocks       0x0001b6a1    0x2a  Code  Gb  CLOCK.o [1]
+COMMON_Ascii2Dec        0x00013641    0x46  Code  Gb  DATACONV.o [1]
+COMMON_Byte2PAN         0x00013271    0xa4  Code  Gb  DATACONV.o [1]
+COMMON_ByteArray2PAN    0x0001339f    0x6e  Code  Gb  DATACONV.o [1]
+COMMON_HWord2PAN        0x00013315    0x46  Code  Gb  DATACONV.o [1]
+COMMON_PAN2Byte         0x0001340d    0x98  Code  Gb  DATACONV.o [1]
+COMMON_PAN2ByteArray    0x000135dd    0x64  Code  Gb  DATACONV.o [1]
+COMMON_PAN2HWord        0x000134a5    0x9c  Code  Gb  DATACONV.o [1]
+COMMON_PAN2Word         0x00013541    0x9c  Code  Gb  DATACONV.o [1]
+COMMON_Word2PAN         0x0001335b    0x44  Code  Gb  DATACONV.o [1]
+CSTACK$$Base            0x2002f800           --   Gb  - Linker created -
+CSTACK$$Limit           0x20030000           --   Gb  - Linker created -
+C_GrpupCommands         0x000103d1    0x5c  Code  Lc  XTP.o [1]
+ClockInit               0x0001b6cb    0x20  Code  Gb  CLOCK.o [1]
+D_GrpupCommands         0x0001042d    0xc2  Code  Lc  XTP.o [1]
+Dummy_Handler           0x0001b94d     0x2  Code  Gb  startup_same51.o [1]
+EIC_0_Handler           0x0001a2fd    0x36  Code  Gb  EIC.o [1]
+EIC_10_Handler          0x0001a50f    0x36  Code  Gb  EIC.o [1]
+EIC_11_Handler          0x0001a545    0x36  Code  Gb  EIC.o [1]
+EIC_12_Handler          0x0001a57b    0x36  Code  Gb  EIC.o [1]
+EIC_13_Handler          0x0001a5b1    0x36  Code  Gb  EIC.o [1]
+EIC_14_Handler          0x0001a5e7    0x36  Code  Gb  EIC.o [1]
+EIC_15_Handler          0x0001a61d    0x36  Code  Gb  EIC.o [1]
+EIC_1_Handler           0x0001a333    0x36  Code  Gb  EIC.o [1]
+EIC_2_Handler           0x0001a369    0x2c  Code  Gb  EIC.o [1]
+EIC_3_Handler           0x0001a395    0x36  Code  Gb  EIC.o [1]
+EIC_4_Handler           0x0001a3cb    0x36  Code  Gb  EIC.o [1]
+EIC_5_Handler           0x0001a401    0x36  Code  Gb  EIC.o [1]
+EIC_6_Handler           0x0001a437    0x36  Code  Gb  EIC.o [1]
+EIC_7_Handler           0x0001a46d    0x36  Code  Gb  EIC.o [1]
+EIC_8_Handler           0x0001a4a3    0x36  Code  Gb  EIC.o [1]
+EIC_9_Handler           0x0001a4d9    0x36  Code  Gb  EIC.o [1]
+E_GrpupCommands         0x000104ef    0x66  Code  Lc  XTP.o [1]
+Error_Exit              0x0001326f     0x2  Code  Gb  ERROR.o [1]
+Error_Handler           0x00013269     0x6  Code  Gb  ERROR.o [1]
+Error_Init              0x00013267     0x2  Code  Gb  ERROR.o [1]
+FLASH_Init              0x0001b74f    0x40  Code  Gb  NVMCTRL.o [1]
+F_GrpupCommands         0x00010555   0x126  Code  Lc  XTP.o [1]
+GCLK_EnableSERCOMClock  0x0001827d    0x4c  Code  Gb  GCLK.o [1]
+GCLK_Generator0Init     0x00017cdd    0x4a  Code  Gb  GCLK.o [1]
+GCLK_PeripheralClockEnable
+                        0x00017d27   0x548  Code  Gb  GCLK.o [1]
+GPIO_Init               0x0001529d   0x2a6  Code  Gb  GPIO.o [1]
+GPIO_ResetPin           0x0001555b    0x18  Code  Gb  GPIO.o [1]
+GPIO_SetPin             0x00015543    0x18  Code  Gb  GPIO.o [1]
+GetCurrentProtocol      0x00011721    0x50  Code  Gb  XTP.o [1]
+HOST_SPISlaveIFInit     0x0001afc9    0x26  Code  Gb  HOST_SPISlaveIF.o [1]
+HOST_SPISlaveIF_IdleHandler
+                        0x0001b061    0x10  Code  Lc  HOST_SPISlaveIF.o [1]
+HOST_SPISlaveIF_RequestDataHandler
+                        0x0001b071    0x10  Code  Lc  HOST_SPISlaveIF.o [1]
+HOST_SPISlaveIF_TansferDataHandler
+                        0x0001b081    0x10  Code  Lc  HOST_SPISlaveIF.o [1]
+H_GrpupCommands         0x0001067b    0x48  Code  Lc  XTP.o [1]
+IDLE_Exit               0x0001368f     0x2  Code  Gb  IDLE.o [1]
+IDLE_Handler            0x00013689     0x6  Code  Gb  IDLE.o [1]
+IDLE_Init               0x00013687     0x2  Code  Gb  IDLE.o [1]
+IGN_OFF_Exit            0x0001376f     0x2  Code  Gb  IGN_OFF.o [1]
+IGN_OFF_Handler         0x00013769     0x6  Code  Gb  IGN_OFF.o [1]
+IGN_OFF_Init            0x00013767     0x2  Code  Gb  IGN_OFF.o [1]
+IGN_ON_Exit             0x00013987     0x2  Code  Gb  IGN_ON.o [1]
+IGN_ON_Handler          0x00013981     0x6  Code  Gb  IGN_ON.o [1]
+IGN_ON_Init             0x0001397f     0x2  Code  Gb  IGN_ON.o [1]
+ISO14230_KlineFast_Exit
+                        0x0001185f     0x6  Code  Gb  ISO14230_FAST.o [1]
+ISO14230_KlineFast_Handler
+                        0x00011859     0x6  Code  Gb  ISO14230_FAST.o [1]
+ISO14230_KlineFast_Init
+                        0x00011853     0x6  Code  Gb  ISO14230_FAST.o [1]
+ISO14230_KlineFast_ReadData
+                        0x0001186b     0x4  Code  Gb  ISO14230_FAST.o [1]
+ISO14230_KlineFast_WaitForResp
+                        0x0001186f     0x6  Code  Gb  ISO14230_FAST.o [1]
+ISO14230_KlineFast_WriteData
+                        0x00011865     0x6  Code  Gb  ISO14230_FAST.o [1]
+ISO15765_CAN11B250KBPS_Exit
+                        0x0001b88b     0x6  Code  Gb  ISO15765_CAN11B250KBPS.o [1]
+ISO15765_CAN11B250KBPS_Handler
+                        0x0001b885     0x6  Code  Gb  ISO15765_CAN11B250KBPS.o [1]
+ISO15765_CAN11B250KBPS_Init
+                        0x0001b84d    0x2e  Code  Gb  ISO15765_CAN11B250KBPS.o [1]
+ISO15765_CAN11B250KBPS_ReadData
+                        0x0001b897     0x4  Code  Gb  ISO15765_CAN11B250KBPS.o [1]
+ISO15765_CAN11B250KBPS_WaitForResp
+                        0x0001b89b     0x6  Code  Gb  ISO15765_CAN11B250KBPS.o [1]
+ISO15765_CAN11B250KBPS_WriteData
+                        0x0001b891     0x6  Code  Gb  ISO15765_CAN11B250KBPS.o [1]
+ISO15765_CAN11B500KBPS_Exit
+                        0x0001b1df     0x6  Code  Gb  ISO15765_CAN11B500KBPS.o [1]
+ISO15765_CAN11B500KBPS_Handler
+                        0x0001b113    0xcc  Code  Gb  ISO15765_CAN11B500KBPS.o [1]
+ISO15765_CAN11B500KBPS_Init
+                        0x0001b0e5    0x2e  Code  Gb  ISO15765_CAN11B500KBPS.o [1]
+ISO15765_CAN11B500KBPS_ReadData
+                        0x0001b295     0x4  Code  Gb  ISO15765_CAN11B500KBPS.o [1]
+ISO15765_CAN11B500KBPS_WaitForResp
+                        0x0001b299     0x6  Code  Gb  ISO15765_CAN11B500KBPS.o [1]
+ISO15765_CAN11B500KBPS_WriteData
+                        0x0001b1e5    0x6c  Code  Gb  ISO15765_CAN11B500KBPS.o [1]
+ISO15765_CAN29B250KBPS_Exit
+                        0x000118f7     0x6  Code  Gb  ISO15765_CAN29B250KBPS.o [1]
+ISO15765_CAN29B250KBPS_Handler
+                        0x000118f1     0x6  Code  Gb  ISO15765_CAN29B250KBPS.o [1]
+ISO15765_CAN29B250KBPS_Init
+                        0x000118eb     0x6  Code  Gb  ISO15765_CAN29B250KBPS.o [1]
+ISO15765_CAN29B250KBPS_ReadData
+                        0x00011903     0x4  Code  Gb  ISO15765_CAN29B250KBPS.o [1]
+ISO15765_CAN29B250KBPS_WaitForResp
+                        0x00011907     0x6  Code  Gb  ISO15765_CAN29B250KBPS.o [1]
+ISO15765_CAN29B250KBPS_WriteData
+                        0x000118fd     0x6  Code  Gb  ISO15765_CAN29B250KBPS.o [1]
+ISO15765_CAN29B500KBPS_Exit
+                        0x0001315f     0x6  Code  Gb  ISO15765_CAN29B500KBPS.o [1]
+ISO15765_CAN29B500KBPS_Handler
+                        0x00013159     0x6  Code  Gb  ISO15765_CAN29B500KBPS.o [1]
+ISO15765_CAN29B500KBPS_Init
+                        0x00013153     0x6  Code  Gb  ISO15765_CAN29B500KBPS.o [1]
+ISO15765_CAN29B500KBPS_ReadData
+                        0x0001316b     0x4  Code  Gb  ISO15765_CAN29B500KBPS.o [1]
+ISO15765_CAN29B500KBPS_WaitForResp
+                        0x0001316f     0x6  Code  Gb  ISO15765_CAN29B500KBPS.o [1]
+ISO15765_CAN29B500KBPS_WriteData
+                        0x00013165     0x6  Code  Gb  ISO15765_CAN29B500KBPS.o [1]
+ISO15765_GetNibble      0x00015285    0x16  Code  Lc  ISO15765_2.o [1]
+ISO15765_Init           0x000151c5     0xe  Code  Gb  ISO15765_2.o [1]
+ISO15765_OneMsHandler   0x00014b6d    0x6c  Code  Gb  ISO15765_2.o [1]
+ISO15765_RxFlowControlFrameState
+                        0x00014ff1    0xc8  Code  Lc  ISO15765_2.o [1]
+ISO15765_RxHandler      0x00014be1     0x8  Code  Gb  ISO15765_2.o [1]
+ISO15765_RxNormalAdd    0x00014be9   0x1f0  Code  Gb  ISO15765_2.o [1]
+ISO15765_SendData       0x000151d3    0x30  Code  Gb  ISO15765_2.o [1]
+ISO15765_SendFlowControlFrame
+                        0x00014dd9    0x44  Code  Gb  ISO15765_2.o [1]
+ISO15765_SetNibble      0x00015269    0x1c  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxConsecutiveFrameState
+                        0x000150b9    0xf2  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxErrorState   0x000151bd     0x8  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxFirstFrameState
+                        0x00014f7d    0x74  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxHandler      0x00014bd9     0x8  Code  Gb  ISO15765_2.o [1]
+ISO15765_TxInitState    0x00014ed7    0x4c  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxScheduler    0x00014e41    0x96  Code  Gb  ISO15765_2.o [1]
+ISO15765_TxSingleFrameState
+                        0x00014f23    0x5a  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxSuccessState
+                        0x000151ab    0x12  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxTimeOutDisable
+                        0x00014e2f    0x12  Code  Lc  ISO15765_2.o [1]
+ISO15765_TxTimeOutEnable
+                        0x00014e1d    0x12  Code  Lc  ISO15765_2.o [1]
+ISOTO_ErrorType         0x0001ad5d     0x2  Code  Gb  TEOBD2.o [1]
+ISOTPLOGQUEUE_Clear     0x00013b25    0x14  Code  Gb  ISOTPQ.o [1]
+ISOTPLOGQUEUE_Init      0x00013b01    0x24  Code  Gb  ISOTPQ.o [1]
+ISOTPQ_LOGQUEUE_ReadAvailMsgCount
+                        0x00013c15     0xa  Code  Gb  ISOTPQ.o [1]
+ISOTPQ_ReadMsg          0x00013b9f    0x76  Code  Gb  ISOTPQ.o [1]
+ISOTPQ_WriteMsg         0x00013b39    0x66  Code  Gb  ISOTPQ.o [1]
+ISOTP_DataReceived      0x0001ad49    0x14  Code  Gb  TEOBD2.o [1]
+I_GrpupCommands         0x000106c3   0x15e  Code  Lc  XTP.o [1]
+J1939_DISPLAY           0x00016de7   0x1ea  Code  Gb  SAEJ1939_21_TP.o [1]
+J1939_RxMsgHandler      0x0001673d   0x6a2  Code  Gb  SAEJ1939_21_TP.o [1]
+J1939_SendTP_Data       0x00017001   0x35e  Code  Gb  SAEJ1939_21_TP.o [1]
+J1939_Timer             0x000166d5    0x68  Code  Gb  SAEJ1939_21_TP.o [1]
+J1939_TxConformation    0x00016de5     0x2  Code  Gb  SAEJ1939_21_TP.o [1]
+J_GrpupCommands         0x00010821    0xcc  Code  Lc  XTP.o [1]
+K_GrpupCommands         0x000108ed    0x46  Code  Lc  XTP.o [1]
+Kline_TestCheck         0x000195b7    0x76  Code  Lc  STN.o [1]
+L_GrpupCommands         0x00010933     0x6  Code  Lc  XTP.o [1]
+LoadInt                 0x00014103    0x7a  Code  Lc  xprintflarge_nomb.o [3]
+Logger_Init             0x0001afb3    0x16  Code  Gb  HOST_SPISlaveIF.o [1]
+MCLK_Init               0x00017c2d    0x24  Code  Gb  MCLK.o [1]
+MCLK_PeriphClkInit      0x00017c51    0x86  Code  Gb  MCLK.o [1]
+MSG4_AppInit            0x0001b2d1    0xa0  Code  Gb  MSG4_App.o [1]
+MSG4_CallBackFromStn    0x0001b2b1     0xc  Code  Gb  MSG4_App.o [1]
+MSG4_IsotpErrorConfirmation
+                        0x0001b2af     0x2  Code  Gb  MSG4_App.o [1]
+MSG4_IsotpRxConfirmation
+                        0x0001b2a1     0xc  Code  Gb  MSG4_App.o [1]
+MSG4_IsotpTxConfirmation
+                        0x0001b2ad     0x2  Code  Gb  MSG4_App.o [1]
+MSG4_RegisterCallBacks  0x0001b2bd    0x14  Code  Gb  MSG4_App.o [1]
+M_GrpupCommands         0x00010939    0xc2  Code  Lc  XTP.o [1]
+NVIC_EnableInterrupt    0x000182c9    0x26  Code  Gb  NVIC.o [1]
+N_GrpupCommands         0x000109fb     0x6  Code  Lc  XTP.o [1]
+OSC32KCTRL_XOSC32KInit  0x0001b709    0x28  Code  Gb  OSC32KCTRL.o [1]
+PASSTHRU_Exit           0x0001ab4b     0x2  Code  Gb  PASSTHRU.o [1]
+PASSTHRU_Handler        0x0001a967   0x1ae  Code  Gb  PASSTHRU.o [1]
+PASSTHRU_Init           0x0001a915    0x52  Code  Gb  PASSTHRU.o [1]
+PLATFORM_Init           0x0001b799    0x36  Code  Gb  PLATFORM.o [1]
+PP_HANDLER_WriteValaue  0x0001309d    0x84  Code  Gb  XTP_PP.o [1]
+P_GrpupCommands         0x00010a01    0xf4  Code  Lc  XTP.o [1]
+R_GrpupCommands         0x00010af5    0xba  Code  Lc  XTP.o [1]
+Region$$Table$$Base     0x0001b9bc           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0001b9dc           --   Gb  - Linker created -
+Reset_Handler           0x0001b945     0x8  Code  Gb  startup_same51.o [1]
+SAEJ1939_BusOff         0x00013c7f     0x2  Code  Lc  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_CAN29B250KBPS_Exit
+                        0x00013e2d     0x6  Code  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_CAN29B250KBPS_Handler
+                        0x00013cc7   0x166  Code  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_CAN29B250KBPS_Init
+                        0x00013c81    0x46  Code  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_CAN29B250KBPS_ReadData
+                        0x00013f5d     0x4  Code  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_CAN29B250KBPS_WaitForResp
+                        0x00013f61     0x6  Code  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_CAN29B250KBPS_WriteData
+                        0x00013e33    0xd2  Code  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+SAEJ1939_ErrorHandler   0x00013c7d     0x2  Code  Lc  SAEJ1939_CAN29B250KBPS.o [1]
+SERCOM0_0_Handler       0x00018bad    0x2e  Code  Gb  UART.o [1]
+SERCOM0_1_Handler       0x00018bdb    0x2e  Code  Gb  UART.o [1]
+SERCOM0_2_Handler       0x00018c09    0x2e  Code  Gb  UART.o [1]
+SERCOM0_3_Handler       0x00018c37    0x2e  Code  Gb  UART.o [1]
+SERCOM1_0_Handler       0x00018c65    0x2e  Code  Gb  UART.o [1]
+SERCOM1_1_Handler       0x00018c93    0x2e  Code  Gb  UART.o [1]
+SERCOM1_2_Handler       0x0001a65d    0x3a  Code  Gb  SPI.o [1]
+SERCOM1_3_Handler       0x00018cc1    0x2e  Code  Gb  UART.o [1]
+SERCOM2_0_Handler       0x00018cef    0x2e  Code  Gb  UART.o [1]
+SERCOM2_1_Handler       0x00018d1d    0x2e  Code  Gb  UART.o [1]
+SERCOM2_2_Handler       0x00018d4b    0x2e  Code  Gb  UART.o [1]
+SERCOM2_3_Handler       0x00018d79    0x2e  Code  Gb  UART.o [1]
+SERCOM3_0_Handler       0x00018da7    0x2e  Code  Gb  UART.o [1]
+SERCOM3_1_Handler       0x00018dd5    0x2e  Code  Gb  UART.o [1]
+SERCOM3_2_Handler       0x00018e03    0x2e  Code  Gb  UART.o [1]
+SERCOM3_3_Handler       0x00018e31    0x2e  Code  Gb  UART.o [1]
+SERCOM4_0_Handler       0x00018e5f    0x2e  Code  Gb  UART.o [1]
+SERCOM4_1_Handler       0x00018e8d    0x2e  Code  Gb  UART.o [1]
+SERCOM4_2_Handler       0x00018ebb    0x2e  Code  Gb  UART.o [1]
+SERCOM4_3_Handler       0x00018ee9    0x2e  Code  Gb  UART.o [1]
+SERCOM5_0_Handler       0x00018f17    0x2e  Code  Gb  UART.o [1]
+SERCOM5_1_Handler       0x00018f45    0x2e  Code  Gb  UART.o [1]
+SERCOM5_2_Handler       0x00018f73    0x2e  Code  Gb  UART.o [1]
+SERCOM5_3_Handler       0x00018fa1    0x2e  Code  Gb  UART.o [1]
+SPISlaveIF_Handler      0x0001afef    0x72  Code  Gb  HOST_SPISlaveIF.o [1]
+SPI_RxHandler           0x0001af2f    0x2c  Code  Lc  HOST_SPISlaveIF.o [1]
+SPI_SlaveInit           0x0001a697   0x246  Code  Gb  SPI.o [1]
+SPI_WriteData           0x0001a8dd    0x1c  Code  Gb  SPI.o [1]
+STN_1MsHandler          0x00019687     0xc  Code  Gb  STN.o [1]
+STN_CallBackUpdate      0x00019345     0x8  Code  Lc  STN.o [1]
+STN_ChangeBaud          0x0001941d    0x96  Code  Lc  STN.o [1]
+STN_ChangeSelfBaud      0x000193eb    0x32  Code  Lc  STN.o [1]
+STN_EnterBootLoader     0x000194b3    0x78  Code  Lc  STN.o [1]
+STN_GetFifoRef          0x0001933f     0x6  Code  Lc  STN.o [1]
+STN_GetSerialNumber     0x0001962d    0x5a  Code  Lc  STN.o [1]
+STN_Ioctrl              0x000196c5    0x94  Code  Gb  STN.o [1]
+STN_ReadData            0x00019693    0x18  Code  Gb  STN.o [1]
+STN_ReadFifo            0x000192e7    0x58  Code  Lc  STN.o [1]
+STN_ReadFifoLength      0x00019271     0x8  Code  Lc  STN.o [1]
+STN_ResetFifo           0x00019279    0x1a  Code  Lc  STN.o [1]
+STN_RxHandler           0x0001934d    0x9e  Code  Lc  STN.o [1]
+STN_STBCntrl            0x000197b5    0x1c  Code  Gb  STN.o [1]
+STN_WaitingDelay        0x0001925d    0x14  Code  Lc  STN.o [1]
+STN_WriteData           0x000196ab    0x1a  Code  Gb  STN.o [1]
+STN_WriteFifo           0x00019293    0x54  Code  Lc  STN.o [1]
+SYSTICK_Enable          0x0001b4bd    0x42  Code  Gb  SYSTICK.o [1]
+SYSTICK_EnableInterrupt
+                        0x0001b4ff    0x12  Code  Gb  SYSTICK.o [1]
+SYSTICK_SetTickCount    0x0001b511    0x2c  Code  Gb  SYSTICK.o [1]
+S_GrpupCommands         0x00010baf   0x322  Code  Lc  XTP.o [1]
+Scope_WriteAnalogData   0x0001af5b    0x58  Code  Gb  HOST_SPISlaveIF.o [1]
+Special_GrpupCommands   0x00010fed    0x6a  Code  Lc  XTP.o [1]
+SysTick_Handler         0x0001b7cf    0x18  Code  Gb  PLATFORM.o [1]
+TBUS_CheckSum           0x00019e41   0x11c  Code  Lc  TBUS.o [1]
+TBUS_Init               0x00019cc7    0x16  Code  Gb  TBUS.o [1]
+TBUS_Ping               0x00019fa9    0x18  Code  Gb  TBUS.o [1]
+TBUS_ProcessResponse    0x00019cdd    0x7e  Code  Lc  TBUS.o [1]
+TBUS_RegisterHandler    0x00019d5b    0x42  Code  Gb  TBUS.o [1]
+TBUS_RxHandler          0x00019c61    0x40  Code  Lc  TBUS.o [1]
+TBUS_RxManager          0x00019ca1    0x26  Code  Gb  TBUS.o [1]
+TBUS_SendCommand        0x00019d9d    0x7e  Code  Gb  TBUS.o [1]
+TBUS_SendData           0x00019e1b    0x26  Code  Lc  TBUS.o [1]
+TBUS_StartScope         0x00019fc1     0x8  Code  Gb  TBUS.o [1]
+TBUS_StopScope          0x00019fc9     0x8  Code  Gb  TBUS.o [1]
+TC0_Handler             0x0001605d    0x94  Code  Gb  TC.o [1]
+TC1_Handler             0x000160f1    0x94  Code  Gb  TC.o [1]
+TC2_Handler             0x00016185    0x94  Code  Gb  TC.o [1]
+TC3_Handler             0x00016219    0x94  Code  Gb  TC.o [1]
+TC4_Handler             0x000162ad    0x94  Code  Gb  TC.o [1]
+TCC0_0_Handler          0x00019801    0x54  Code  Gb  TCC.o [1]
+TCC0_1_Handler          0x00019855    0x54  Code  Gb  TCC.o [1]
+TCC0_2_Handler          0x000198a9    0x54  Code  Gb  TCC.o [1]
+TCC0_3_Handler          0x000198fd    0x54  Code  Gb  TCC.o [1]
+TCC0_4_Handler          0x00019951    0x54  Code  Gb  TCC.o [1]
+TCC0_5_Handler          0x000199a5    0x54  Code  Gb  TCC.o [1]
+TCC1_0_Handler          0x000199f9    0x32  Code  Gb  TCC.o [1]
+TCC1_1_Handler          0x00019a2b    0x32  Code  Gb  TCC.o [1]
+TCC1_2_Handler          0x00019a5d    0x32  Code  Gb  TCC.o [1]
+TCC1_3_Handler          0x00019a8f    0x32  Code  Gb  TCC.o [1]
+TCC1_4_Handler          0x00019ac1    0x32  Code  Gb  TCC.o [1]
+TCC2_1_Handler          0x00019af3    0x32  Code  Gb  TCC.o [1]
+TCC2_2_Handler          0x00019b25    0x32  Code  Gb  TCC.o [1]
+TCC2_3_Handler          0x00019b57    0x32  Code  Gb  TCC.o [1]
+TCC3_1_Handler          0x00019b89    0x32  Code  Gb  TCC.o [1]
+TCC3_2_Handler          0x00019bbb    0x32  Code  Gb  TCC.o [1]
+TCC4_1_Handler          0x00019bed    0x32  Code  Gb  TCC.o [1]
+TCC4_2_Handler          0x00019c1f    0x32  Code  Gb  TCC.o [1]
+TC_Disable              0x00016611    0x28  Code  Gb  TC.o [1]
+TC_EventInit            0x00016341   0x274  Code  Gb  TC.o [1]
+TC_EventInit::u32_lFirstFlag
+                        0x20013ea8     0x4  Data  Lc  TC.o [1]
+TC_GetEventPeriodValueinTime
+                        0x000165b5    0x5c  Code  Gb  TC.o [1]
+TC_SoftReset            0x00016639    0x1c  Code  Gb  TC.o [1]
+TEOBD2_StackHandler     0x0001ad85    0x7e  Code  Gb  TEOBD2.o [1]
+TEOBDII_STACK_WriteConfigData
+                        0x000116ff    0x1e  Code  Gb  XTP.o [1]
+TE_StackSTB_Cntrl       0x0001395d    0x22  Code  Gb  CAN_IF.o [1]
+T_GrpupCommands         0x00010ed1    0x5c  Code  Lc  XTP.o [1]
+TransferByte            0x0001a8fb    0x12  Code  Gb  SPI.o [1]
+UART_Init               0x00018fcf   0x20c  Code  Gb  UART.o [1]
+UART_RXHandler_R        0x0001af21     0xe  Code  Gb  HOST_SPISlaveIF.o [1]
+UART_TransmitChar       0x000191db    0x2a  Code  Gb  UART.o [1]
+V_GrpupCommands         0x00010f2d     0x6  Code  Lc  XTP.o [1]
+WDT_Handler             0x0001baed    0x14  Code  Gb  WDT.o [1]
+W_GrpupCommands         0x00010f33    0x96  Code  Lc  XTP.o [1]
+XOSCClockConfig         0x0001b545    0x1a  Code  Gb  OSCCTRL.o [1]
+XOSCDpllCOnfig          0x0001b55f    0x5e  Code  Gb  OSCCTRL.o [1]
+XTP_CAN_XTD             0x00012149    0x42  Code  Gb  XTP_CAN.o [1]
+XTP_CheckForDataFrame   0x00010107    0x34  Code  Lc  XTP.o [1]
+XTP_Check_AT_ST_XT      0x00011057    0x36  Code  Lc  XTP.o [1]
+XTP_ExecuteCommand      0x000101a7   0x1d8  Code  Lc  XTP.o [1]
+XTP_GNRL_XTM            0x0001256d    0x1a  Code  Gb  XTP_GE.o [1]
+XTP_Init                0x0001ad5f    0x26  Code  Gb  TEOBD2.o [1]
+XTP_ProcessBuffer       0x00010001    0x7e  Code  Gb  XTP.o [1]
+XTP_ProcessCommand      0x0001013b    0x3a  Code  Lc  XTP.o [1]
+XTP_ProcessData         0x00010175    0x32  Code  Gb  XTP.o [1]
+XTP_RemoveSpaces        0x0001007f    0x5c  Code  Lc  XTP.o [1]
+XTP_SendRequest         0x0001ae03    0xca  Code  Gb  TEOBD2.o [1]
+XTP_SmallToCaps         0x000100db    0x2c  Code  Lc  XTP.o [1]
+XTP_XTA                 0x00012673    0x1a  Code  Gb  XTP_GE.o [1]
+XTP_XTAT                0x0001190d    0x20  Code  Gb  XTP_OBD.o [1]
+XTP_XTCEA               0x00011ee1    0x1a  Code  Gb  XTP_TE.o [1]
+XTP_XTDI                0x000125fd    0x1a  Code  Gb  XTP_GE.o [1]
+XTP_XTDP                0x0001192d   0x120  Code  Gb  XTP_OBD.o [1]
+XTP_XTDPN               0x00011a93    0x76  Code  Gb  XTP_OBD.o [1]
+XTP_XTE                 0x00012515    0x3e  Code  Gb  XTP_GE.o [1]
+XTP_XTEA                0x00012043    0x90  Code  Gb  XTP_TE.o [1]
+XTP_XTFCSD              0x0001218b    0x1a  Code  Gb  XTP_CAN.o [1]
+XTP_XTFCSH              0x000121a5    0x1a  Code  Gb  XTP_CAN.o [1]
+XTP_XTFCSM              0x00012269    0x1a  Code  Gb  XTP_CAN.o [1]
+XTP_XTFFCA              0x000123ef    0xb4  Code  Gb  XTP_CAN.o [1]
+XTP_XTFI                0x000126cb    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTFPA               0x00012283    0xb4  Code  Gb  XTP_CAN.o [1]
+XTP_XTH                 0x00011a4d    0x46  Code  Gb  XTP_OBD.o [1]
+XTP_XTI                 0x00012553    0x1a  Code  Gb  XTP_GE.o [1]
+XTP_XTIAT               0x00012799    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTIB                0x000126b1    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTIBR               0x000127b3    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTIIA               0x00011ec7    0x1a  Code  Gb  XTP_TE.o [1]
+XTP_XTIMCS              0x000127cd    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTIP1X              0x000127e7    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTIP4               0x00012801    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTJDA               0x00012c23   0x10a  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTJDM               0x00012845   0x3de  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTJMA               0x00012e57    0x18  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTJMP               0x00012d85    0x66  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTJMPN              0x00012deb    0x6c  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTJNM               0x00012d2d    0x2c  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTJTP               0x00012d59    0x2c  Code  Gb  XTP_SAEJ1939.o [1]
+XTP_XTKW                0x000126ff    0x80  Code  Gb  XTP_ISO.o [1]
+XTP_XTMA                0x00011b09    0x3e  Code  Gb  XTP_OBD.o [1]
+XTP_XTMFR               0x00012617    0x1a  Code  Gb  XTP_GE.o [1]
+XTP_XTMH                0x000121bf    0xaa  Code  Gb  XTP_CAN.o [1]
+XTP_XTMR                0x00011cc9    0x8c  Code  Gb  XTP_OBD.o [1]
+XTP_XTP                 0x00011efb    0x34  Code  Gb  XTP_TE.o [1]
+XTP_XTPPOFF             0x00013097     0x6  Code  Gb  XTP_PP.o [1]
+XTP_XTPPON              0x00013091     0x6  Code  Gb  XTP_PP.o [1]
+XTP_XTPPS               0x00012fa5    0x7a  Code  Gb  XTP_PP.o [1]
+XTP_XTPPSV              0x0001301f    0x72  Code  Gb  XTP_PP.o [1]
+XTP_XTRB                0x00011ead    0x1a  Code  Gb  XTP_TE.o [1]
+XTP_XTRH                0x00011faf    0x94  Code  Gb  XTP_TE.o [1]
+XTP_XTRQ                0x000120d3    0x3c  Code  Gb  XTP_TE.o [1]
+XTP_XTRST               0x000124e9    0x2c  Code  Gb  XTP_GE.o [1]
+XTP_XTRV                0x00012631    0x42  Code  Gb  XTP_GE.o [1]
+XTP_XTS                 0x00011d59    0x3e  Code  Gb  XTP_OBD.o [1]
+XTP_XTSATI              0x00011f95    0x1a  Code  Gb  XTP_TE.o [1]
+XTP_XTSBR               0x000125ad    0x36  Code  Gb  XTP_GE.o [1]
+XTP_XTSCFH              0x00012337    0xb8  Code  Gb  XTP_CAN.o [1]
+XTP_XTSH                0x00011b47   0x12e  Code  Gb  XTP_OBD.o [1]
+XTP_XTSI                0x00011f2f    0x1a  Code  Gb  XTP_TE.o [1]
+XTP_XTSLCS              0x00013175    0x1a  Code  Gb  XTP_PM.o [1]
+XTP_XTSLLT              0x000131dd    0x1a  Code  Gb  XTP_PM.o [1]
+XTP_XTSLPCP             0x0001318f    0x1a  Code  Gb  XTP_PM.o [1]
+XTP_XTSLXP              0x000131c3    0x1a  Code  Gb  XTP_PM.o [1]
+XTP_XTSLXS              0x000131a9    0x1a  Code  Gb  XTP_PM.o [1]
+XTP_XTSN                0x00012587    0x26  Code  Gb  XTP_GE.o [1]
+XTP_XTSP                0x00011dd3    0x5a  Code  Gb  XTP_OBD.o [1]
+XTP_XTST                0x00011c75    0x54  Code  Gb  XTP_OBD.o [1]
+XTP_XTSW                0x000126e5    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTTM                0x00011f63    0x32  Code  Gb  XTP_TE.o [1]
+XTP_XTTP                0x00011d97    0x3c  Code  Gb  XTP_OBD.o [1]
+XTP_XTTPA               0x00011f49    0x1a  Code  Gb  XTP_TE.o [1]
+XTP_XTWBR               0x000125e3    0x1a  Code  Gb  XTP_GE.o [1]
+XTP_XTWM                0x0001277f    0x1a  Code  Gb  XTP_ISO.o [1]
+XTP_XTZ                 0x000124c1    0x28  Code  Gb  XTP_GE.o [1]
+XT_RequestComplete      0x0001ab3d     0xe  Code  Gb  PASSTHRU.o [1]
+Z_GrpupCommands         0x00010fc9    0x24  Code  Lc  XTP.o [1]
+_GenldLargeNoMb         0x000148a5   0x230  Code  Lc  xprintflarge_nomb.o [3]
+_LdtobLargeNoMb         0x0001463d   0x240  Code  Lc  xprintflarge_nomb.o [3]
+_LitobLargeNoMb         0x000144e5   0x112  Code  Lc  xprintflarge_nomb.o [3]
+_PrintfLargeNoMb        0x00013f71   0x18c  Code  Gb  xprintflarge_nomb.o [3]
+_PutcharsLargeNoMb      0x00014ad5    0x2e  Code  Lc  xprintflarge_nomb.o [3]
+_PutfldLargeNoMb        0x0001417d   0x25c  Code  Lc  xprintflarge_nomb.o [3]
+_PuttxtLargeNoMb        0x000143d9   0x10c  Code  Lc  xprintflarge_nomb.o [3]
+_SProut                 0x00013f67     0xa  Code  Gb  xsprout.o [3]
+__aeabi_cdcmple         0x0001788d          Code  Gb  DblCmpLe.o [4]
+__aeabi_d2iz            0x00019221          Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x00017b05          Code  Gb  DblToU32.o [4]
+__aeabi_dadd            0x00018301          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x000178bd          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00017679          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00017b49          Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x00013c35          Code  Gb  FltToDbl.o [4]
+__aeabi_ldiv0           0x000182fd          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4         0x0001184d          Code  Gb  ABImemclr4.o [5]
+__aeabi_memset          0x00013201          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x00017b2d          Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x00017449          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0001b981          Code  Gb  cmain.o [5]
+__exit                  0x00018479    0x14  Code  Gb  exit.o [6]
+__iar_Fail_s            0x00017405    0x1e  Code  Gb  xfail_s.o [3]
+__iar_Memchr            0x0001667d          Code  Gb  memchr.o [5]
+__iar_Memset            0x00013201          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x00013735          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x00013735          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x00013209          Code  Gb  ABImemset.o [5]
+__iar_Stoulx            0x00013989   0x116  Code  Gb  iar_Stoulx.o [3]
+__iar_Strchr            0x0001313d          Code  Gb  strchr.o [5]
+__iar_dadd              0x00017b59          Code  Gb  DblSub.o [4]
+__iar_data_init3        0x0001b8e1    0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x00018311          Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x00018323          Code  Gb  DblAdd.o [4]
+__iar_frexp             0x00017829          Code  Gb  frexp.o [4]
+__iar_frexpl            0x00017829          Code  Gb  frexp.o [4]
+__iar_init_vfp          0x0001b95d          Code  Gb  fpinit_M.o [4]
+__iar_lz77_init_single3
+                        0x000117d3    0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x0001b94f          Code  Gb  cstartup_M.o [5]
+__iar_softfp___iar_frexp64
+                        0x0001781d          Code  Gb  frexp.o [4]
+__iar_softfp_frexp      0x0001781d          Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x0001781d          Code  Gb  frexp.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_unaligned_memcpy  0x00011875          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned_memcpy4
+                        0x00011895          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned_memcpy8
+                        0x00011895          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned_strcpy  0x00013691          Code  Gb  strcpy_unaligned.o [5]
+__iar_zero_init3        0x0001b8a1    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0001b92d     0xe  Code  Gb  startup_same51.o [1]
+__vector_table          0x00000000   0x264  Data  Gb  startup_same51.o [1]
+_call_main              0x0001b98d          Code  Gb  cmain.o [5]
+_exit                   0x0001b9b1          Code  Gb  cexit.o [5]
+_main                   0x0001b99b          Code  Gb  cmain.o [5]
+abort                   0x000182f5     0x6  Code  Gb  abort.o [3]
+ast_gISOTPLogBuffer     0x2000381c  0x2bc0  Data  Gb  ISOTPQ.o [1]
+atoi                    0x00013aa5     0x2  Code  Gb  iar_Stoulx.o [3]
+atomic_enter_critical   0x0001b735     0xe  Code  Lc  NVMCTRL.o [1]
+atomic_leave_critical   0x0001b743     0xc  Code  Lc  NVMCTRL.o [1]
+au8_gBAMpacketBuffer    0x200000e8     0x8  Data  Gb  SAEJ1939_21_TP.o [1]
+au8_gBT43CmdRespBuf     0x20013a40    0xfc  Data  Gb  BT43.o [1]
+au8_gConnctionAbort     0x200000f0     0x8  Data  Gb  SAEJ1939_21_TP.o [1]
+au8_gIctErrorString     0x0001bd14     0x8  Data  Gb  XTP.o [1]
+au8_gIctSuccessString   0x0001bd1c     0x8  Data  Gb  XTP.o [1]
+au8_gIsoTpRxBuffer      0x2000f4b4  0x1000  Data  Gb  ISO15765_2.o [1]
+au8_gIsoTpRxDataBuffer  0x200104b4  0x1000  Data  Gb  MSG4_App.o [1]
+au8_gIsoTpTxBuffer      0x2000e4b4  0x1000  Data  Gb  ISO15765_2.o [1]
+au8_gJ1939_CTS_Msg      0x200000d0     0x8  Data  Gb  SAEJ1939_21_TP.o [1]
+au8_gJ939_END_ACK_Msg   0x200000d8     0x8  Data  Gb  SAEJ1939_21_TP.o [1]
+au8_gRTSBuff            0x200000e0     0x8  Data  Gb  SAEJ1939_21_TP.o [1]
+au8_gSTNRxFifo          0x200114b4  0x1000  Data  Lc  STN.o [1]
+au8_gSorceAdress        0x20013e2c     0x8  Data  Gb  SAEJ1939_21_TP.o [1]
+au8_gTBUSRxData         0x2000a4b4  0x2000  Data  Gb  TBUS.o [1]
+au8_gTBUSTxData         0x2000c4b4  0x2000  Data  Gb  TBUS.o [1]
+au8_gUsingTimerEvent    0x20013e34     0x8  Data  Gb  TC.o [1]
+au8_lDisplayBuff        0x2000081c  0x3000  Data  Gb  XTP.o [1]
+digits                  0x00013ab0    0x28  Data  Lc  iar_Stoulx.o [3]
+en_gAddressingMode      0x20013f08     0x1  Data  Gb  ISO15765_2.o [1]
+en_gBTRespType          0x20013ef6     0x1  Data  Gb  BT43.o [1]
+en_gCurrState           0x20013f0e     0x1  Data  Gb  MSG4_App.o [1]
+en_gCurrentSatate       0x20013efa     0x1  Data  Gb  HOST_SPISlaveIF.o [1]
+en_gDiagMode            0x20013f12     0x1  Data  Gb  PASSTHRU.o [1]
+en_gError               0x20013efd     0x1  Data  Gb  ISO15765_2.o [1]
+en_gOBDII_Prevstate     0x20000816     0x1  Data  Gb  TEOBD2.o [1]
+en_gOBDII_State         0x20000815     0x1  Data  Gb  TEOBD2.o [1]
+en_gPrevState           0x20013f0f     0x1  Data  Gb  MSG4_App.o [1]
+en_gStnRespType         0x20013f30     0x1  Data  Gb  STN.o [1]
+en_gTxState             0x20013efc     0x1  Data  Gb  ISO15765_2.o [1]
+exit                    0x0001b9ab     0x4  Code  Gb  exit.o [3]
+fp_TCCaptureUserHandler
+                        0x20013d48    0x20  Data  Gb  TC.o [1]
+fp_TCUserHandler        0x20013d28    0x20  Data  Gb  TC.o [1]
+fp_gADCUserHandler      0x20013b3c    0x80  Data  Gb  ADC.o [1]
+fp_gCANUserBusOffHandler
+                        0x20013e1c     0x8  Data  Gb  CAN.o [1]
+fp_gCANUserErrorHandler
+                        0x20013e24     0x8  Data  Gb  CAN.o [1]
+fp_gCANUserRxHandler    0x20013e0c     0x8  Data  Gb  CAN.o [1]
+fp_gCANUserTxHandler    0x20013e14     0x8  Data  Gb  CAN.o [1]
+fp_gEICUserHandler      0x20013c48    0x40  Data  Gb  EIC.o [1]
+fp_gUARTUserHandler     0x20013d68    0x20  Data  Gb  UART.o [1]
+main                    0x0001b99f     0xc  Code  Gb  ENTRY_POINT.o [1]
+memchr                  0x0001667d          Code  Gb  memchr.o [5]
+memcpy                  0x00019fd1     0xc  Code  Gb  memcpy.o [5]
+ndigs                   0x00013ad8    0x28  Data  Lc  iar_Stoulx.o [3]
+p_gISOTPLogReadPtr      0x20013e68     0x4  Data  Gb  ISOTPQ.o [1]
+p_gISOTPLogWritePtr     0x20013e64     0x4  Data  Gb  ISOTPQ.o [1]
+p_gNVMRegAccess         0x200000b0     0x4  Data  Gb  NVMCTRL.o [1]
+p_gXT_ReqComplete       0x20013eac     0x4  Data  Gb  TEOBD2.o [1]
+p_stgADCRegAccess       0x20000000     0x8  Data  Gb  ADC.o [1]
+p_stgCANRegsAccess      0x20000018     0x8  Data  Gb  CAN.o [1]
+p_stgCaptureUserHandler
+                        0x20013dc8    0x14  Data  Gb  TCC.o [1]
+p_stgEICBaseRegs        0x20000040     0x4  Data  Gb  EIC.o [1]
+p_stgFSM_States         0x200000a8     0x4  Data  Gb  MSG4_App.o [1]
+p_stgGCLKRegister       0x20000044     0x4  Data  Gb  GCLK.o [1]
+p_stgGpioUartRxPin      0x20000068     0x8  Data  Gb  HOST_SPISlaveIF.o [1]
+p_stgGpioUartTxPin      0x20000060     0x8  Data  Gb  HOST_SPISlaveIF.o [1]
+p_stgMCLKRegs           0x200000a4     0x4  Data  Gb  MCLK.o [1]
+p_stgMailBoxConfig      0x20013e50     0x4  Data  Gb  CAN_IF.o [1]
+p_stgNVICRegs           0x200000ac     0x4  Data  Gb  NVIC.o [1]
+p_stgOBDIIStates        0x20000590     0x4  Data  Gb  TEOBD2.o [1]
+p_stgOSC32KCtrlRegs     0x200000b4     0x4  Data  Gb  OSC32KCTRL.o [1]
+p_stgOscCtrlRegs        0x200000b8     0x4  Data  Gb  OSCCTRL.o [1]
+p_stgPORTRegAccess      0x20000048     0x8  Data  Gb  GPIO.o [1]
+p_stgSPIBaseRegs        0x200000f8    0x20  Data  Gb  SPI.o [1]
+p_stgSYSTICKRegs        0x20000118     0x4  Data  Gb  SYSTICK.o [1]
+p_stgTC32BitBaseRegs    0x2000055c    0x20  Data  Gb  TC.o [1]
+p_stgTCBaseRegs         0x2000053c    0x20  Data  Gb  TC.o [1]
+p_stgTCCREGS            0x2000057c    0x14  Data  Gb  TCC.o [1]
+p_stgUSART_BASE_REGS    0x2000059c    0x20  Data  Gb  UART.o [1]
+p_stgUserHandlerTCC     0x20013db4    0x14  Data  Gb  TCC.o [1]
+p_stgWDTRegAccess       0x200005bc     0x4  Data  Gb  WDT.o [1]
+pf_gStnCallBackRegister
+                        0x20013e90     0x4  Data  Lc  STN.o [1]
+pst_gHalObjectPtr       0x20000594     0x4  Data  Gb  TEOBD2.o [1]
+pst_gSPISlaveConfigParam
+                        0x20013e8c     0x4  Data  Gb  SPI.o [1]
+pu8_gISOTPDataRcvPntr   0x20013eb8     0x4  Data  Gb  TEOBD2.o [1]
+scale                   0x000145f7    0x46  Code  Lc  xprintflarge_nomb.o [3]
+sec_hand                0x20013ecc     0x4  Data  Lc  xfail_s.o [3]
+sprintf                 0x000136d5    0x40  Code  Gb  sprintf.o [3]
+st_gADC0Ch1Params       0x0001bbc0     0xc  Data  Gb  ADC_SCOPE.o [1]
+st_gADC0Ch1PinParams    0x0001bc5c     0x8  Data  Gb  ADC_SCOPE.o [1]
+st_gADC0Ch6Params       0x0001bbcc     0xc  Data  Gb  ADC_SCOPE.o [1]
+st_gADC0Ch6PinParams    0x0001bc64     0x8  Data  Gb  ADC_SCOPE.o [1]
+st_gADC0Ch7Params       0x0001bbd8     0xc  Data  Gb  ADC_SCOPE.o [1]
+st_gADC0Ch7PinParams    0x0001bc6c     0x8  Data  Gb  ADC_SCOPE.o [1]
+st_gADC1Ch8Params       0x0001bbe4     0xc  Data  Gb  ADC_SCOPE.o [1]
+st_gADC1Ch8PinParams    0x0001bc74     0x8  Data  Gb  ADC_SCOPE.o [1]
+st_gADC1Ch9Params       0x0001bbf0     0xc  Data  Gb  ADC_SCOPE.o [1]
+st_gADC1Ch9PinParams    0x0001bc7c     0x8  Data  Gb  ADC_SCOPE.o [1]
+st_gADCTimer            0x0001bbfc     0xc  Data  Gb  ADC_SCOPE.o [1]
+st_gAuthntctnLedConfigParams
+                        0x0001bcac     0x8  Data  Gb  PLATFORM.o [1]
+st_gBT43_UartParams     0x20000008    0x10  Data  Gb  BT43.o [1]
+st_gCanTpLog            0x20013dec    0x10  Data  Gb  ISO15765_CAN11B500KBPS.o [1]
+st_gChipConfigData      0x20013bbc    0x48  Data  Gb  XTP.o [1]
+st_gFSM_States          0x0001b7f8    0x54  Data  Gb  MSG4_App.o [1]
+st_gHalObject           0x20013c04    0x44  Data  Gb  TEOBD2.o [1]
+st_gISOTPTimer          0x20000034     0xc  Data  Gb  CAN_IF.o [1]
+st_gISOTP_Data          0x20000020    0x14  Data  Gb  CAN_IF.o [1]
+st_gIsoTpParams         0x20013da0    0x14  Data  Gb  ISO15765_2.o [1]
+st_gJ1939CanTpLog       0x20013dfc    0x10  Data  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+st_gMcanMsgData         0x20013ddc    0x10  Data  Gb  CAN.o [1]
+st_gOBDIIStates         0x0001b39c    0x90  Data  Gb  TEOBD2.o [1]
+st_gPPBackup            0x200005d0   0x240  Data  Gb  XTP_PP.o [1]
+st_gPPCurrent           0x20013800   0x240  Data  Gb  XTP_PP.o [1]
+st_gReadCanMsg          0x20013d88    0x18  Data  Gb  CAN.o [1]
+st_gSercom1SlaveInitParams
+                        0x20000090    0x14  Data  Gb  HOST_SPISlaveIF.o [1]
+st_gSlaveSercom1CSPinParams
+                        0x20000078     0x8  Data  Gb  HOST_SPISlaveIF.o [1]
+st_gSlaveSercom1MISOPinParams
+                        0x20000070     0x8  Data  Gb  HOST_SPISlaveIF.o [1]
+st_gSlaveSercom1MOSIPinParams
+                        0x20000080     0x8  Data  Gb  HOST_SPISlaveIF.o [1]
+st_gSlaveSercom1SCLKPinParams
+                        0x20000088     0x8  Data  Gb  HOST_SPISlaveIF.o [1]
+st_gTBUSRxPin           0x20000124     0x8  Data  Gb  TBUS.o [1]
+st_gTBUSServices        0x2000013c   0x400  Data  Gb  TBUS.o [1]
+st_gTBUSTxPin           0x2000011c     0x8  Data  Gb  TBUS.o [1]
+st_gTBUSUartConfig      0x2000012c    0x10  Data  Gb  TBUS.o [1]
+st_gUartChannelConfig   0x20000050    0x10  Data  Gb  HOST_SPISlaveIF.o [1]
+st_gWIFILedConfigParams
+                        0x0001bcb4     0x8  Data  Gb  PLATFORM.o [1]
+strcat                  0x00013715    0x20  Code  Gb  strcat.o [3]
+strchr                  0x0001313d          Code  Gb  strchr.o [5]
+strlen                  0x0001179d          Code  Gb  strlen.o [5]
+strstr                  0x000197d1    0x30  Code  Gb  strstr.o [3]
+u16_gAdcCh1Data         0x20013c88    0x20  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcCh2Data         0x20013ca8    0x20  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcCh3Data         0x20013cc8    0x20  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcCh4Data         0x20013ce8    0x20  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcCh5Data         0x20013d08    0x20  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcValue1          0x20013ed0     0x2  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcValue2          0x20013ed2     0x2  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcValue3          0x20013ed4     0x2  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcValue4          0x20013ed6     0x2  Data  Gb  ADC_SCOPE.o [1]
+u16_gAdcValue5          0x20013ed8     0x2  Data  Gb  ADC_SCOPE.o [1]
+u16_gBsCount            0x20013ee6     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gDataBuff1OffsetIndex
+                        0x20013eda     0x2  Data  Gb  HOST_SPISlaveIF.o [1]
+u16_gDispIndex          0x20013ef0     0x2  Data  Gb  XTP.o [1]
+u16_gEvntCntr           0x20013ee8     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gISOTP_MsgCnt       0x20013eea     0x2  Data  Gb  ISOTPQ.o [1]
+u16_gIsoTpRxDataSize    0x20013ee0     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gIsoTpRxIndex       0x20013ee2     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gIsoTpTxDataSize    0x20013edc     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gIsoTpTxIndex       0x20013ede     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gJ1939TotalBytes    0x20013eec     0x2  Data  Gb  SAEJ1939_21_TP.o [1]
+u16_gRxBS               0x20013ee4     0x2  Data  Gb  ISO15765_2.o [1]
+u16_gRxFrameLength      0x20013eee     0x2  Data  Gb  TBUS.o [1]
+u16_gTimeoutTime        0x20000810     0x2  Data  Gb  XTP.o [1]
+u32_g1ms_Countr         0x20013e6c     0x4  Data  Gb  MSG4_App.o [1]
+u32_gDataHeader         0x200000c8     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gDataRcvdIndex      0x20013e4c     0x4  Data  Gb  BT43.o [1]
+u32_gFcTimeOutCount     0x20013e5c     0x4  Data  Gb  ISO15765_2.o [1]
+u32_gISOTP_CANid        0x20013ec0     0x4  Data  Gb  TEOBD2.o [1]
+u32_gISOTPdLength       0x20013ebc     0x4  Data  Gb  TEOBD2.o [1]
+u32_gIsoTpTxHeader      0x20013e58     0x4  Data  Gb  ISO15765_2.o [1]
+u32_gJ1939CTSHeader     0x200000c0     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gJ1939Header        0x200000bc     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gJ1939RTSHeader     0x200000c4     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gJ1939RxMonitrTimeOutCntr
+                        0x20013e80     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gJ1939RxMonitrTimeOutFlag
+                        0x20013e7c     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gJ1939RxTimeOutCnt  0x20013e78     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gNMheader           0x200000cc     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gRTSSorce_Addrs     0x20013e84     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u32_gRxHeaderBackUp     0x200005cc     0x4  Data  Gb  XTP.o [1]
+u32_gRxHeaderId         0x200005c4     0x4  Data  Gb  XTP.o [1]
+u32_gRxheaderForMntor   0x20013ec4     0x4  Data  Gb  XTP_OBD.o [1]
+u32_gSPIRxIndex         0x20013e54     0x4  Data  Gb  HOST_SPISlaveIF.o [1]
+u32_gSTNDelayCounter    0x20013e94     0x4  Data  Lc  STN.o [1]
+u32_gSTNRxFifoAvail     0x20013ea0     0x4  Data  Lc  STN.o [1]
+u32_gSTNRxFifoFront     0x20013e98     0x4  Data  Lc  STN.o [1]
+u32_gSTNRxFifoRare      0x20013e9c     0x4  Data  Lc  STN.o [1]
+u32_gStackickCounter    0x20013eb0     0x4  Data  Gb  TEOBD2.o [1]
+u32_gStnDataLength      0x20013e70     0x4  Data  Gb  MSG4_App.o [1]
+u32_gTBUSRxIndex        0x20013ea4     0x4  Data  Gb  TBUS.o [1]
+u32_gTEOBD2TimeoutCounter
+                        0x20013eb4     0x4  Data  Gb  TEOBD2.o [1]
+u32_gTickCounter        0x20013e74     0x4  Data  Gb  PLATFORM.o [1]
+u32_gTimeout            0x20000598     0x4  Data  Gb  TEOBD2.o [1]
+u32_gTxHeaderBackUp     0x200005c8     0x4  Data  Gb  XTP.o [1]
+u32_gTxHeaderId         0x200005c0     0x4  Data  Gb  XTP.o [1]
+u32_gTxTimeOutCount     0x20013e60     0x4  Data  Gb  ISO15765_2.o [1]
+u8_J1939RxTimeOutFlag   0x20013f25     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_J1939_ExptPkts       0x20013f1c     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_RecverSorceAdrs      0x20013f2d     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gAnalogEOC           0x20013ef3     0x1  Data  Gb  ADC_SCOPE.o [1]
+u8_gAuthCompltedFlag    0x20013f11     0x1  Data  Gb  MSG4_App.o [1]
+u8_gAutoPrtcl           0x20013f37     0x1  Data  Gb  TEOBD2.o [1]
+u8_gBT43CmdMode         0x20013ef7     0x1  Data  Gb  BT43.o [1]
+u8_gBT43CmdRespIndex    0x20013ef5     0x1  Data  Gb  BT43.o [1]
+u8_gBTRxBuffer          0x200063dc  0x206c  Data  Gb  BT43.o [1]
+u8_gCM_BAM_Flag         0x20013f2a     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gCTS_Received_Flag   0x20013f22     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gCanBusMonitorHeadrs
+                        0x20013f3f     0x1  Data  Gb  XTP.o [1]
+u8_gCanBusMonitorStaus  0x20013f3e     0x1  Data  Gb  XTP.o [1]
+u8_gConsdrSprtnTimeFalg
+                        0x20013f02     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gConsecutiveIndex    0x20013f03     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gDLCFlag             0x20013f3d     0x1  Data  Gb  XTP.o [1]
+u8_gDataBuffer1         0x200133b4   0x44c  Data  Gb  HOST_SPISlaveIF.o [1]
+u8_gDataID              0x20013f34     0x1  Data  Gb  TBUS.o [1]
+u8_gDatarate            0x20013e3c     0x8  Data  Gb  XTP_GE.o [1]
+u8_gDatatCmpltdFlag     0x20013f0a     0x1  Data  Gb  ISO15765_CAN11B500KBPS.o [1]
+u8_gEchoFlagStatus      0x20000817     0x1  Data  Gb  XTP.o [1]
+u8_gEnableTxFlag        0x20013efe     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gErrorSuccesFlag     0x2000081a     0x1  Data  Gb  XTP.o [1]
+u8_gExtendAdd           0x20013f40     0x1  Data  Gb  XTP.o [1]
+u8_gGlobalRespReq       0x2000081b     0x1  Data  Gb  XTP_SAEJ1939.o [1]
+u8_gHeaderFlag          0x20013f3c     0x1  Data  Gb  XTP.o [1]
+u8_gHeadrflag           0x20013f41     0x1  Data  Gb  XTP.o [1]
+u8_gIctSpaceFlag        0x20000819     0x1  Data  Gb  XTP.o [1]
+u8_gIsDataFromStn       0x20013f10     0x1  Data  Gb  MSG4_App.o [1]
+u8_gIsFlowControl       0x20013f05     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gIsSystickTimeOut    0x20013f15     0x1  Data  Gb  PLATFORM.o [1]
+u8_gIsoTpDataRecvdFlag  0x20013f07     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gJ1939CMMsgRcvd      0x20013f24     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939DatatCmpltdFlag
+                        0x20013f2f     0x1  Data  Gb  SAEJ1939_CAN29B250KBPS.o [1]
+u8_gJ1939IsRxRcvd       0x20000814     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939MultiRqst      0x20013f20     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939RqstSent       0x20013f1f     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939SnglPGNMntr    0x20013f29     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939_MPF           0x20013f1a     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939_MPS           0x20013f1b     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939_PF            0x20013f16     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gJ1939_PS            0x20013f17     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gKeyByte1            0x20013f0b     0x1  Data  Gb  ISOTP14230_TP.o [1]
+u8_gKeyByte2            0x20013f0c     0x1  Data  Gb  ISOTP14230_TP.o [1]
+u8_gKlineInitSeqFlag    0x20013f0d     0x1  Data  Gb  ISOTP14230_TP.o [1]
+u8_gKlineSrcByte        0x20000813     0x1  Data  Gb  ISOTP14230_TP.o [1]
+u8_gKlineTarByte        0x20000812     0x1  Data  Gb  ISOTP14230_TP.o [1]
+u8_gMaxPacktstoSend     0x20013f21     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gMntrPGN_N_Frames    0x20013f27     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gMntrPGN_N_timesFlag
+                        0x20013f26     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gNextConsecutiveIndex
+                        0x20013f04     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gOTAFlag             0x20013ef9     0x1  Data  Gb  HOST_SPISlaveIF.o [1]
+u8_gRcvdPkts            0x20013f1e     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gRepeatFlag          0x20013f3b     0x1  Data  Gb  XTP.o [1]
+u8_gResponseFlag        0x20000818     0x1  Data  Gb  XTP.o [1]
+u8_gRxFC                0x20013f00     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gRxSTmin             0x20013f01     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gSAEJ1939MtntlAllPGN
+                        0x20013f28     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gSPIRxBuff           0x20008448  0x206c  Data  Gb  HOST_SPISlaveIF.o [1]
+u8_gSPISlaveIFRxFlag    0x20013efb     0x1  Data  Gb  HOST_SPISlaveIF.o [1]
+u8_gSTNMntrFlag         0x20013f14     0x1  Data  Gb  PASSTHRU.o [1]
+u8_gSTminCount          0x20013f06     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gSentFlag            0x20013f2e     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gSentPackets         0x20013f2b     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gSequence_Number     0x20013f23     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gServiceID           0x20013f33     0x1  Data  Gb  TBUS.o [1]
+u8_gSorceAdressIndx     0x20013f2c     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gStackCANintrptMange
+                        0x20013f13     0x1  Data  Gb  PASSTHRU.o [1]
+u8_gStnLastChar         0x20013f31     0x1  Data  Lc  STN.o [1]
+u8_gSuccessCounter      0x20013f09     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gTBUSCmdRecvd        0x20013f32     0x1  Data  Gb  TBUS.o [1]
+u8_gTBUSServiceIndex    0x20013f35     0x1  Data  Gb  TBUS.o [1]
+u8_gTEOBD2ReqstSentFlag
+                        0x20013f39     0x1  Data  Gb  TEOBD2.o [1]
+u8_gTEOBD2TimeoutFlag   0x20013f38     0x1  Data  Gb  TEOBD2.o [1]
+u8_gTP_J1939_PF         0x20013f18     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gTP_J1939_PS         0x20013f19     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gTP_PGN              0x20013e88     0x4  Data  Gb  SAEJ1939_21_TP.o [1]
+u8_gTimeoutBufer        0x20013ec8     0x4  Data  Gb  XTP_TE.o [1]
+u8_gTimerEvent          0x20013f36     0x1  Data  Gb  TCC.o [1]
+u8_gTriggerInProgress   0x20013ef2     0x1  Data  Gb  ADC.o [1]
+u8_gTringgerCounter     0x20013ef4     0x1  Data  Gb  ADC_SCOPE.o [1]
+u8_gTxTimeOutFlag       0x20013eff     0x1  Data  Gb  ISO15765_2.o [1]
+u8_gXtComReqFlag        0x20013f3a     0x1  Data  Gb  XTP.o [1]
+u8_gisDataFromBT        0x20013ef8     0x1  Data  Gb  BT43.o [1]
+u8_j1939_NextCTS        0x20013f1d     0x1  Data  Gb  SAEJ1939_21_TP.o [1]
+
+
+[1] = D:\PROJECTS\PROJECTS_2020\IAR_8.2\GEN4_Build\MSG4_VIC_E51\PROJECT\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  47 110 bytes of readonly  code memory
+   2 986 bytes of readonly  data memory
+  83 778 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
